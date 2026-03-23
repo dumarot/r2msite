@@ -67,8 +67,8 @@ export default function Header() {
       </div>
 
       {isMenuOpen && (
-        <div className="md:hidden bg-white border-t border-slate-200">
-          <nav className="flex flex-col px-4 py-4 space-y-3">
+        <div className="md:hidden bg-white border-t border-slate-200 shadow-lg">
+          <nav className="flex flex-col px-4 py-4 space-y-2">
             {[
               { label: 'Início', id: 'hero' },
               { label: 'Empreendimentos', id: 'projects' },
@@ -80,7 +80,7 @@ export default function Header() {
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className="text-left text-slate-600 hover:text-slate-900 font-medium py-2 transition-colors"
+                className="text-left text-slate-700 hover:text-emerald-600 hover:bg-slate-50 font-medium py-3 px-4 rounded-lg transition-all active:scale-95"
               >
                 {item.label}
               </button>

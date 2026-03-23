@@ -134,16 +134,16 @@ export default function Projects() {
           ))}
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {displayedProjects.map((project) => {
             const projectDetail = projectsData.find(p => p.id === project.id);
             return (
               <Link
                 key={project.id}
                 to={`/projeto/${projectDetail?.slug}`}
-                className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
+                className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl active:shadow-xl transition-all duration-300 transform hover:-translate-y-2 active:translate-y-0 touch-manipulation"
               >
-                <div className="relative h-64 overflow-hidden">
+                <div className="relative h-56 md:h-64 overflow-hidden">
                   <img
                     src={project.image}
                     alt={`${project.name} - ${project.description} em ${project.location}`}
@@ -168,16 +168,16 @@ export default function Projects() {
                     </span>
                   </div>
                 </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold text-slate-900 mb-2 group-hover:text-emerald-600 transition-colors">
+                <div className="p-4 md:p-6">
+                  <h3 className="text-lg md:text-xl font-bold text-slate-900 mb-2 group-hover:text-emerald-600 transition-colors">
                     {project.name}
                   </h3>
                   <div className="flex items-center text-slate-600 mb-2">
-                    <MapPin className="h-4 w-4 mr-1" />
-                    <span className="text-sm">{project.location}</span>
+                    <MapPin className="h-3.5 w-3.5 md:h-4 md:w-4 mr-1" />
+                    <span className="text-xs md:text-sm">{project.location}</span>
                   </div>
-                  <p className="text-slate-600 text-sm mb-3">{project.description}</p>
-                  <div className="inline-block px-3 py-1 bg-slate-100 text-slate-700 text-sm rounded-full">
+                  <p className="text-slate-600 text-xs md:text-sm mb-3">{project.description}</p>
+                  <div className="inline-block px-2.5 py-1 md:px-3 bg-slate-100 text-slate-700 text-xs md:text-sm rounded-full">
                     {project.category}
                   </div>
                 </div>
