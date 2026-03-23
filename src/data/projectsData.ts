@@ -91,7 +91,7 @@ export const projectsData: ProjectDetail[] = [
     status: 'Em Obras',
     location: 'Jaú, SP',
     category: 'Residencial',
-    description: 'Ambientes amplos e integrados com lazer completo',
+    description: 'Espaços exclusivos pensados para você. Ambientes integrados com lazer completo.',
     longDescription: 'O Esplanada Jaú é um empreendimento residencial que oferece espaços exclusivos pensados para você e sua família. Com ambientes amplos e integrados, o projeto conta com área de lazer completa, incluindo coworking, academia, piscina, churrasqueira, quadra de esportes e elevador. Um empreendimento moderno que proporciona conforto, segurança e qualidade de vida.',
     mainImage: '/RB2_Esplanada_Fachada_R02.jpg',
     gallery: [
