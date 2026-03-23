@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { ChevronLeft, ChevronRight, MapPin, ExternalLink } from 'lucide-react';
 import VistasLogo from './VistasLogo';
 import CicloLogo from './CicloLogo';
@@ -42,6 +42,8 @@ const featuredProjects = [
 export default function FeaturedProjects() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
+  const touchStartX = useRef(0);
+  const touchEndX = useRef(0);
 
   useEffect(() => {
     if (!isAutoPlaying) return;
@@ -68,10 +70,33 @@ export default function FeaturedProjects() {
     setIsAutoPlaying(false);
   };
 
+  const handleTouchStart = (e: React.TouchEvent) => {
+    touchStartX.current = e.touches[0].clientX;
+  };
+
+  const handleTouchMove = (e: React.TouchEvent) => {
+    touchEndX.current = e.touches[0].clientX;
+  };
+
+  const handleTouchEnd = () => {
+    if (touchStartX.current - touchEndX.current > 50) {
+      nextSlide();
+    }
+
+    if (touchStartX.current - touchEndX.current < -50) {
+      prevSlide();
+    }
+  };
+
   const currentProject = featuredProjects[currentSlide];
 
   return (
-    <section className="relative h-screen min-h-[600px] bg-slate-900 overflow-hidden">
+    <section
+      className="relative h-screen min-h-[600px] bg-slate-900 overflow-hidden"
+      onTouchStart={handleTouchStart}
+      onTouchMove={handleTouchMove}
+      onTouchEnd={handleTouchEnd}
+    >
       <div className="absolute inset-0">
         {featuredProjects.map((project, index) => (
           <div
@@ -146,7 +171,7 @@ export default function FeaturedProjects() {
 
       <button
         onClick={prevSlide}
-        className="absolute left-4 top-1/2 transform -translate-y-1/2 z-20 bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white p-3 rounded-full transition-all duration-300 border border-white/20"
+        className="hidden md:block absolute left-4 top-1/2 transform -translate-y-1/2 z-20 bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white p-3 rounded-full transition-all duration-300 border border-white/20"
         aria-label="Previous slide"
       >
         <ChevronLeft className="h-6 w-6" />
@@ -154,7 +179,7 @@ export default function FeaturedProjects() {
 
       <button
         onClick={nextSlide}
-        className="absolute right-4 top-1/2 transform -translate-y-1/2 z-20 bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white p-3 rounded-full transition-all duration-300 border border-white/20"
+        className="hidden md:block absolute right-4 top-1/2 transform -translate-y-1/2 z-20 bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white p-3 rounded-full transition-all duration-300 border border-white/20"
         aria-label="Next slide"
       >
         <ChevronRight className="h-6 w-6" />
