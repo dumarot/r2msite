@@ -82,7 +82,7 @@ export default function FeaturedProjects() {
           >
             <img
               src={project.image}
-              alt={project.name}
+              alt={`${project.name} - ${project.description}`}
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-slate-900/95 via-slate-900/70 to-transparent"></div>

@@ -146,7 +146,7 @@ export default function Projects() {
                 <div className="relative h-64 overflow-hidden">
                   <img
                     src={project.image}
-                    alt={project.name}
+                    alt={`${project.name} - ${project.description} em ${project.location}`}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
                   <div className="absolute top-4 right-4">

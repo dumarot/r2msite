@@ -5,6 +5,8 @@ import { projectsData } from '../data/projectsData';
 import VistasLogo from '../components/VistasLogo';
 import CicloLogo from '../components/CicloLogo';
 import EsplanadaLogo from '../components/EsplanadaLogo';
+import SEO from '../components/SEO';
+import StructuredData from '../components/StructuredData';
 
 export default function ProjectDetailPage() {
   const { slug } = useParams<{ slug: string }>();
@@ -33,11 +35,29 @@ export default function ProjectDetailPage() {
   };
 
   return (
-    <div className="min-h-screen bg-white">
-      <div className="relative h-[70vh] min-h-[500px] bg-slate-900">
+    <>
+      <SEO
+        title={`${project.name} - R2M Incorporadora | ${project.category}`}
+        description={project.longDescription}
+        keywords={`${project.name}, ${project.category}, ${project.location}, incorporadora, imóveis, ${project.features.join(', ')}`}
+        ogImage={project.mainImage}
+        canonical={`https://r2m.com.br/projeto/${project.slug}`}
+      />
+      <StructuredData
+        type="project"
+        projectData={{
+          name: project.name,
+          description: project.longDescription,
+          image: project.mainImage,
+          location: project.location,
+          category: project.category,
+        }}
+      />
+      <div className="min-h-screen bg-white">
+        <div className="relative h-[70vh] min-h-[500px] bg-slate-900">
         <img
           src={project.mainImage}
-          alt={project.name}
+          alt={`${project.name} - ${project.description} - Empreendimento em ${project.location}`}
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/50 to-transparent"></div>
@@ -100,7 +120,7 @@ export default function ProjectDetailPage() {
                   <div className="relative h-96 rounded-xl overflow-hidden bg-slate-100">
                     <img
                       src={project.gallery[currentImageIndex]}
-                      alt={`${project.name} - Imagem ${currentImageIndex + 1}`}
+                      alt={`${project.name} - Galeria de fotos imagem ${currentImageIndex + 1} de ${project.gallery.length}`}
                       className="w-full h-full object-cover"
                     />
 
@@ -135,7 +155,7 @@ export default function ProjectDetailPage() {
                       >
                         <img
                           src={image}
-                          alt={`Miniatura ${index + 1}`}
+                          alt={`${project.name} miniatura ${index + 1} de ${project.gallery.length}`}
                           className="w-full h-full object-cover"
                         />
                       </button>
@@ -241,6 +261,7 @@ export default function ProjectDetailPage() {
           </div>
         </div>
       </div>
-    </div>
+      </div>
+    </>
   );
 }

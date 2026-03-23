@@ -1,0 +1,10 @@
+# robots.txt for R2M Incorporadora
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://r2m.com.br/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 1
