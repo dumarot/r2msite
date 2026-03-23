@@ -10,7 +10,7 @@ export default function About() {
               Sobre a R2M
             </h2>
             <p className="text-lg text-slate-600 mb-6 leading-relaxed">
-              Incorporadora especializada em desenvolvimento urbano e construção de empreendimentos imobiliários. Fundada em valores sólidos como eficiência, comprometimento e transparência.
+              Incorporadora especializada em desenvolvimento urbano e construção de empreendimentos imobiliários. Fundada em valores sólidos como eficiência, compromisso e transparência.
             </p>
             <p className="text-lg text-slate-600 mb-6 leading-relaxed">
               A todo momento buscamos transformar o sonho de nossos clientes em uma realidade concreta.
@@ -28,17 +28,17 @@ export default function About() {
               {
                 icon: Target,
                 title: 'Eficiência',
-                description: 'Processos otimizados e resultados superiores'
+                description: 'Processos otimizados e resultados'
               },
               {
                 icon: Heart,
-                title: 'Comprometimento',
-                description: 'Dedicação total em cada projeto'
+                title: 'Compromisso',
+                description: 'Dedicação em cada projeto'
               },
               {
                 icon: Shield,
                 title: 'Transparência',
-                description: 'Relações claras e honestas'
+                description: 'Relações claras e diretas'
               },
               {
                 icon: Leaf,
