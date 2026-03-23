@@ -92,7 +92,7 @@ export default function FeaturedProjects() {
 
   return (
     <section
-      className="relative h-screen min-h-[600px] bg-slate-900 overflow-hidden"
+      className="relative h-[85vh] min-h-[500px] max-h-[700px] bg-slate-900 overflow-hidden"
       onTouchStart={handleTouchStart}
       onTouchMove={handleTouchMove}
       onTouchEnd={handleTouchEnd}
