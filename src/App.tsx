@@ -7,7 +7,7 @@ import ProjectDetailPage from './pages/ProjectDetailPage';
 
 function App() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen overflow-x-hidden w-full">
       <ScrollToTop />
       <Header />
       <Routes>
