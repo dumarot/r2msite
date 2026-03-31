@@ -30,7 +30,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <div className="flex items-center space-x-3 cursor-pointer hover:opacity-80 transition-opacity" onClick={() => scrollToSection('hero')}>
-            <img src="https://r2m.com.br/wp-content/themes/r2m/img/logo.png" alt="R2M" className="h-10 w-auto" />
+            <img src="/logos/image.png" alt="R2M Construtora e Incorporadora" className="h-12 w-auto" />
           </div>
 
           <nav className="hidden md:flex items-center space-x-8">
