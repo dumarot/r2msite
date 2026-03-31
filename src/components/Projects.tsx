@@ -4,6 +4,9 @@ import { MapPin, Clock, CheckCircle } from 'lucide-react';
 import { projectsData } from '../data/projectsData';
 
 const projects = [
+  // TEMPORARIAMENTE REMOVIDO - Vistas Joanópolis
+  // Para reativar, descomentar o bloco abaixo
+  /*
   {
     id: 2,
     name: 'Vistas Joanópolis',
@@ -13,6 +16,7 @@ const projects = [
     category: 'Condomínio de Lotes',
     description: 'Lotes de 1.000 a 3.000 m² em harmonia com a natureza'
   },
+  */
   {
     id: 1,
     name: 'Esplanada Jaú',
