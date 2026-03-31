@@ -4,6 +4,9 @@ import VistasLogo from './VistasLogo';
 import CicloLogo from './CicloLogo';
 
 const featuredProjects = [
+  // TEMPORARIAMENTE REMOVIDO - Vistas Joanópolis
+  // Para reativar, descomentar o bloco abaixo
+  /*
   {
     id: 2,
     name: 'Vistas Joanópolis',
@@ -15,6 +18,7 @@ const featuredProjects = [
     logo: 'https://static.wixstatic.com/media/028729_2f550e2e9af64330a8d26a15e4c57c78~mv2.png',
     highlights: ['Clube Náutico', 'Heliponto', 'Spa & Wellness', 'Beach Tennis', 'Marina Privativa', 'Segurança 24h']
   },
+  */
   {
     id: 1,
     name: 'Esplanada Jaú',

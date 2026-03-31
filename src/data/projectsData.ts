@@ -23,6 +23,9 @@ export interface ProjectDetail {
 }
 
 export const projectsData: ProjectDetail[] = [
+  // TEMPORARIAMENTE REMOVIDO - Vistas Joanópolis
+  // Para reativar, descomentar o bloco abaixo
+  /*
   {
     id: 2,
     slug: 'vistas-joanopolis',
@@ -84,6 +87,7 @@ export const projectsData: ProjectDetail[] = [
     website: 'https://www.vistasjoanopolis.com.br',
     logo: 'https://static.wixstatic.com/media/028729_2f550e2e9af64330a8d26a15e4c57c78~mv2.png'
   },
+  */
   {
     id: 1,
     slug: 'esplanada-jau',
