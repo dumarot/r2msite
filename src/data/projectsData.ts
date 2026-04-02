@@ -306,8 +306,9 @@ export const projectsData: ProjectDetail[] = [
     category: 'Residencial',
     description: 'Residência de alto padrão com arquitetura marcante',
     longDescription: 'Esta residência de alto padrão projetada pelo renomado arquiteto Aldomar Caprini tem características marcantes com revestimento em tijolinho aparente estilo inglês e maravilhoso jogo de telhados.',
-    mainImage: '/projects/alphaville_obras_8.JPG',
+    mainImage: '/projects/IMG_2659.JPG',
     gallery: [
+      '/projects/IMG_2659.JPG',
       '/projects/alphaville_obras_8.JPG',
       '/projects/alphaville_1.jpg',
       '/projects/alphaville_2.jpg',
