@@ -13,7 +13,7 @@ export default function Hero() {
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900"></div>
         <img
-          src="/RB2_Esplanada_Fachada_R02.jpg"
+          src="/RB2_Esplanada_Fachada_R02.jpg?v=1"
           alt="R2M Empreendimentos"
           className="absolute inset-0 w-full h-full object-cover opacity-20"
         />
