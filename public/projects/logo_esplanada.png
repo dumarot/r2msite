@@ -1,0 +1,1191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Marcel Bonfim">
+    <!-- meta og -->
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/favicon.ico" />
+    <meta property="og:url" content="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada" />
+    <!-- Descrição -->
+    <meta name="description" content="Sinta a experiência de viver com vários itens de lazer e conveniências que só o Esplanada Jaú pode proporcionar.">
+    <!-- Titulo -->
+    
+
+    <!-- CSS Gabriel -->
+
+    <link href="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- ////////////////////// LGPD - PARTE #2/3 ////////////////////// -->
+    <link href="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/css/lgpd.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+	  <div class="fixo">
+		  
+		  <a href="https://api.whatsapp.com/send?phone=551934442247&text=Ol%C3%A1%2C+tenho+interesse+no+esplanada+jau" target="!_blank" class="pulse">
+			  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.184" height="24.3" viewBox="0 0 24.184 24.3">
+				  <defs>
+					  <clipPath id="clip-path">
+						  <rect id="Retângulo_106" data-name="Retângulo 106" width="24.184" height="24.3" fill="#fff"/>
+					  </clipPath>
+				  </defs>
+				  <g id="Grupo_171" data-name="Grupo 171" transform="translate(0 0)">
+					  <g id="Grupo_170" data-name="Grupo 170" transform="translate(0 0)" clip-path="url(#clip-path)">
+						  <path id="Caminho_203" data-name="Caminho 203" d="M20.661,3.531A12.044,12.044,0,0,0,1.708,18.06L0,24.3l6.383-1.675a12.034,12.034,0,0,0,5.754,1.466h0a12.047,12.047,0,0,0,8.518-20.56M12.142,22.057h0a10,10,0,0,1-5.094-1.395l-.365-.217-3.788.994L3.9,17.746l-.238-.379a10.008,10.008,0,1,1,8.478,4.69" transform="translate(0 0)" fill="#fff" fill-rule="evenodd"/>
+						  <path id="Caminho_204" data-name="Caminho 204" d="M23.932,21.339c-.3-.151-1.78-.878-2.056-.979s-.477-.151-.677.151-.777.979-.953,1.18-.351.226-.652.075a8.219,8.219,0,0,1-2.419-1.493A9.064,9.064,0,0,1,15.5,18.188c-.175-.3-.019-.464.132-.614.135-.135.3-.351.451-.527a2.056,2.056,0,0,0,.3-.5.554.554,0,0,0-.025-.527c-.075-.151-.677-1.632-.927-2.234-.244-.587-.493-.507-.677-.516s-.376-.011-.576-.011a1.105,1.105,0,0,0-.8.376,3.376,3.376,0,0,0-1.053,2.51,5.857,5.857,0,0,0,1.228,3.113,13.413,13.413,0,0,0,5.14,4.543,17.215,17.215,0,0,0,1.715.634,4.124,4.124,0,0,0,1.9.119,3.1,3.1,0,0,0,2.031-1.431,2.514,2.514,0,0,0,.175-1.431c-.075-.126-.276-.2-.577-.351" transform="translate(-6.3 -6.777)" fill="#fff" fill-rule="evenodd"/>
+					  </g>
+				  </g>
+			  </svg>
+		  </a>
+	  </div> 
+
+	  <div class="fixo2">
+		  <a href="https://www.esplanadajau.com.br/#contato" class="nopulse" id="meuBotao">
+			  <svg xmlns="http://www.w3.org/2000/svg" width="51" height="51" viewBox="0 0 51 51" fill="none">
+				<path d="M19.125 38.25V34C19.125 29.2188 15.3276 25.5 10.5485 25.5H10.6633C5.882 25.5 2.125 29.2188 2.125 34V38.25M25.5 14.875H51M25.5 36.125H46.75M25.5 25.5H40.375M10.625 25.5C8.93424 25.5 7.31274 24.8284 6.11719 23.6328C4.92165 22.4373 4.25 20.8158 4.25 19.125C4.25 17.4342 4.92165 15.8127 6.11719 14.6172C7.31274 13.4217 8.93424 12.75 10.625 12.75C12.3158 12.75 13.9373 13.4217 15.1328 14.6172C16.3283 15.8127 17 17.4342 17 19.125C17 20.8158 16.3283 22.4373 15.1328 23.6328C13.9373 24.8284 12.3158 25.5 10.625 25.5Z" stroke="#3F818B" stroke-width="2"/>
+				</svg>
+		  </a>
+		  <!-- Div que aparecerá ao passar o mouse -->
+		  <div class="fraseDiv" id="fraseDiv"><p>Cadastre-se e saia na frente</p></div>
+	  </div>
+	  
+    <meta name="google-site-verification" content="1nNluv8iVGfnvmri7VTVValvxBEeuwJd6TnSHz5eXAc" /> 
+
+    
+		<!-- All in One SEO 4.9.5.1 - aioseo.com -->
+		<title>Esplanada Jau - Espaços exclusivos pensados para você</title>
+	<meta name="description" content="Sinta a experiência de viver com vários itens de lazer e conveniências que só o Esplanada Jaú pode proporcionar." />
+	<meta name="robots" content="max-image-preview:large" />
+	<link rel="canonical" href="https://www.esplanadajau.com.br/" />
+	<meta name="generator" content="All in One SEO (AIOSEO) 4.9.5.1" />
+		<meta property="og:locale" content="pt_BR" />
+		<meta property="og:site_name" content="Esplanada Jau - Espaços exclusivos pensados para você - Sinta a experiência de viver com vários itens de lazer e conveniências que só o Esplanada Jaú pode proporcionar." />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="Esplanada Jau - Espaços exclusivos pensados para você" />
+		<meta property="og:description" content="Sinta a experiência de viver com vários itens de lazer e conveniências que só o Esplanada Jaú pode proporcionar." />
+		<meta property="og:url" content="https://www.esplanadajau.com.br/" />
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:title" content="Esplanada Jau - Espaços exclusivos pensados para você" />
+		<meta name="twitter:description" content="Sinta a experiência de viver com vários itens de lazer e conveniências que só o Esplanada Jaú pode proporcionar." />
+		<script type="application/ld+json" class="aioseo-schema">
+			{"@context":"https:\/\/schema.org","@graph":[{"@type":"BreadcrumbList","@id":"https:\/\/www.esplanadajau.com.br\/#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"https:\/\/www.esplanadajau.com.br#listItem","position":1,"name":"In\u00edcio"}]},{"@type":"CollectionPage","@id":"https:\/\/www.esplanadajau.com.br\/#collectionpage","url":"https:\/\/www.esplanadajau.com.br\/","name":"Esplanada Jau - Espa\u00e7os exclusivos pensados para voc\u00ea","description":"Sinta a experi\u00eancia de viver com v\u00e1rios itens de lazer e conveni\u00eancias que s\u00f3 o Esplanada Ja\u00fa pode proporcionar.","inLanguage":"pt-BR","isPartOf":{"@id":"https:\/\/www.esplanadajau.com.br\/#website"},"breadcrumb":{"@id":"https:\/\/www.esplanadajau.com.br\/#breadcrumblist"},"about":{"@id":"https:\/\/www.esplanadajau.com.br\/#organization"}},{"@type":"Organization","@id":"https:\/\/www.esplanadajau.com.br\/#organization","name":"Esplanada Jau","description":"Sinta a experi\u00eancia de viver com v\u00e1rios itens de lazer e conveni\u00eancias que s\u00f3 o Esplanada Ja\u00fa pode proporcionar.","url":"https:\/\/www.esplanadajau.com.br\/","logo":{"@type":"ImageObject","url":"https:\/\/www.esplanadajau.com.br\/wp-content\/uploads\/2024\/04\/LOGO-COLORIDO-scaled.webp","@id":"https:\/\/www.esplanadajau.com.br\/#organizationLogo","width":2560,"height":1334},"image":{"@id":"https:\/\/www.esplanadajau.com.br\/#organizationLogo"}},{"@type":"WebSite","@id":"https:\/\/www.esplanadajau.com.br\/#website","url":"https:\/\/www.esplanadajau.com.br\/","name":"Esplanada Jau","description":"Sinta a experi\u00eancia de viver com v\u00e1rios itens de lazer e conveni\u00eancias que s\u00f3 o Esplanada Ja\u00fa pode proporcionar.","inLanguage":"pt-BR","publisher":{"@id":"https:\/\/www.esplanadajau.com.br\/#organization"}}]}
+		</script>
+		<!-- All in One SEO -->
+
+<!-- Google tag (gtag.js) consent mode dataLayer added by Site Kit -->
+<script type="text/javascript" id="google_gtagjs-js-consent-mode-data-layer">
+/* <![CDATA[ */
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag('consent', 'default', {"ad_personalization":"denied","ad_storage":"denied","ad_user_data":"denied","analytics_storage":"denied","functionality_storage":"denied","security_storage":"denied","personalization_storage":"denied","region":["AT","BE","BG","CH","CY","CZ","DE","DK","EE","ES","FI","FR","GB","GR","HR","HU","IE","IS","IT","LI","LT","LU","LV","MT","NL","NO","PL","PT","RO","SE","SI","SK"],"wait_for_update":500});
+window._googlesitekitConsentCategoryMap = {"statistics":["analytics_storage"],"marketing":["ad_storage","ad_user_data","ad_personalization"],"functional":["functionality_storage","security_storage"],"preferences":["personalization_storage"]};
+window._googlesitekitConsents = {"ad_personalization":"denied","ad_storage":"denied","ad_user_data":"denied","analytics_storage":"denied","functionality_storage":"denied","security_storage":"denied","personalization_storage":"denied","region":["AT","BE","BG","CH","CY","CZ","DE","DK","EE","ES","FI","FR","GB","GR","HR","HU","IE","IS","IT","LI","LT","LU","LV","MT","NL","NO","PL","PT","RO","SE","SI","SK"],"wait_for_update":500};
+/* ]]> */
+</script>
+<!-- End Google tag (gtag.js) consent mode dataLayer added by Site Kit -->
+<link rel='dns-prefetch' href='//code.jquery.com' />
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<style id='wp-img-auto-sizes-contain-inline-css' type='text/css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id='wp-block-library-inline-css' type='text/css'>
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=wp-block-library-inline-css */
+</style>
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='contact-form-7-css' href='https://www.esplanadajau.com.br/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.5' type='text/css' media='all' />
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.3.js" id="jquery-js"></script>
+
+<!-- Snippet da etiqueta do Google (gtag.js) adicionado pelo Site Kit -->
+<!-- Snippet do Google Análises adicionado pelo Site Kit -->
+<script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=GT-NFJXZ3JB" id="google_gtagjs-js" async></script>
+<script type="text/javascript" id="google_gtagjs-js-after">
+/* <![CDATA[ */
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag("set","linker",{"domains":["www.esplanadajau.com.br"]});
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "GT-NFJXZ3JB");
+//# sourceURL=google_gtagjs-js-after
+/* ]]> */
+</script>
+<link rel="https://api.w.org/" href="https://www.esplanadajau.com.br/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.esplanadajau.com.br/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.9.4" />
+<meta name="generator" content="Site Kit by Google 1.174.0" />
+<!-- Meta-etiquetas do Google AdSense adicionado pelo Site Kit -->
+<meta name="google-adsense-platform-account" content="ca-host-pub-2644536267352236">
+<meta name="google-adsense-platform-domain" content="sitekit.withgoogle.com">
+<!-- Fim das meta-etiquetas do Google AdSense adicionado pelo Site Kit -->
+
+<!-- Snippet do Gerenciador de Tags do Google adicionado pelo Site Kit -->
+<script type="text/javascript">
+/* <![CDATA[ */
+
+			( function( w, d, s, l, i ) {
+				w[l] = w[l] || [];
+				w[l].push( {'gtm.start': new Date().getTime(), event: 'gtm.js'} );
+				var f = d.getElementsByTagName( s )[0],
+					j = d.createElement( s ), dl = l != 'dataLayer' ? '&l=' + l : '';
+				j.async = true;
+				j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+				f.parentNode.insertBefore( j, f );
+			} )( window, document, 'script', 'dataLayer', 'GTM-MT6W8BFF' );
+			
+/* ]]> */
+</script>
+
+<!-- Finalizar o snippet do Gerenciador de Tags do Google adicionado pelo Site Kit -->
+<link rel="icon" href="https://www.esplanadajau.com.br/wp-content/uploads/2025/04/cropped-fav2-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.esplanadajau.com.br/wp-content/uploads/2025/04/cropped-fav2-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.esplanadajau.com.br/wp-content/uploads/2025/04/cropped-fav2-1-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.esplanadajau.com.br/wp-content/uploads/2025/04/cropped-fav2-1-270x270.png" />
+  </head>
+
+  <body class="home blog wp-theme-c4themeEsplanada">
+   <div id="cookie-banner" class="cookie-banner hidden">
+    <h3>Valorizamos sua privacidade</h3>
+    <p>
+      Utilizamos cookies para aprimorar sua experiência de navegação, exibir anúncios ou conteúdo personalizado e analisar nosso tráfego. Ao clicar em “Aceitar", você concorda com nosso uso de cookies. 
+      <a href="https://www.esplanadajau.com.br/politica-de-privacidade/">Leia mais</a>
+    </p>
+    <div class="buttons">
+      <button id="aceitar-cookies">Aceitar</button>
+      <button id="recusar-cookies">Recusar</button>
+    </div>
+</div>
+<style>
+/* =========================
+   COOKIE BANNER
+   ========================= */
+
+.cookie-banner {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    max-width: 420px;
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 24px 26px;
+    box-shadow: 0 10px 30px rgba(14, 64, 67, 0.15);
+    z-index: 9999;
+    font-family: "Gotham-Book", sans-serif;
+    color: #0E4043;
+    animation: cookieFadeUp .6s ease;
+}
+
+/* Oculto */
+.cookie-banner.hidden {
+    display: none;
+}
+
+/* Título */
+.cookie-banner h3 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #000;
+}
+
+/* Texto */
+.cookie-banner p {
+    font-size: 0.875rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Link */
+.cookie-banner p a {
+    color: #305769;
+    text-decoration: underline;
+    transition: opacity .3s ease;
+}
+
+.cookie-banner p a:hover {
+    opacity: .75;
+}
+
+/* Botões */
+.cookie-banner .buttons {
+    display: flex;
+    gap: 12px;
+}
+
+.cookie-banner button {
+    flex: 1;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 0;
+    font-size: 0.75rem;
+    font-family: "Gotham-Book", sans-serif;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+/* Aceitar */
+#aceitar-cookies {
+    background:#305769;
+    color: #fff;
+}
+
+#aceitar-cookies:hover {
+    background: #142229;
+}
+
+/* Recusar */
+#recusar-cookies {
+    background:#F2F6F6;
+    color: #000;
+}
+
+#recusar-cookies:hover {
+    background:#142229;
+	color: #ffff
+}
+
+/* =========================
+   RESPONSIVO
+   ========================= */
+
+@media (max-width: 768px) {
+    .cookie-banner {
+        left: 15px;
+        right: 15px;
+        bottom: 15px;
+        max-width: unset;
+        padding: 20px;
+        border-radius: 14px;
+    }
+
+    .cookie-banner h3 {
+        font-size: 0.9rem;
+    }
+
+    .cookie-banner p {
+        font-size: 0.8rem;
+    }
+
+    .cookie-banner button {
+        font-size: 0.7rem;
+        padding: 9px 0;
+    }
+}
+
+/* =========================
+   ANIMAÇÃO SUTIL
+   ========================= */
+
+@keyframes cookieFadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+</style>
+<script>
+/* =========================
+   MICROSOFT CLARITY CONSENT
+   ========================= */
+
+(function () {
+  const CLARITY_ID = 'ktlmjaqnuw';
+  const STORAGE_KEY = 'clarity_consent';
+
+  function loadClarity() {
+    if (window.clarityLoaded) return;
+
+    window.clarityLoaded = true;
+
+    (function(c,l,a,r,i,t,y){
+      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+      t=l.createElement(r);t.async=1;
+      t.src="https://www.clarity.ms/tag/" + CLARITY_ID;
+      y=l.getElementsByTagName(r)[0];
+      y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script");
+  }
+
+  function grantConsent() {
+    localStorage.setItem(STORAGE_KEY, 'granted');
+    loadClarity();
+    clarity('consent', true);
+    hideBanner();
+  }
+
+  function denyConsent() {
+    localStorage.setItem(STORAGE_KEY, 'denied');
+    if (window.clarity) {
+      clarity('consent', false);
+    }
+    hideBanner();
+  }
+
+  function hideBanner() {
+    const banner = document.getElementById('cookie-banner');
+    if (banner) banner.classList.add('hidden');
+  }
+
+  function showBanner() {
+    const banner = document.getElementById('cookie-banner');
+    if (banner) banner.classList.remove('hidden');
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    const consent = localStorage.getItem(STORAGE_KEY);
+
+    if (!consent) {
+      showBanner();
+    }
+
+    if (consent === 'granted') {
+      loadClarity();
+      clarity('consent', true);
+    }
+
+    document.getElementById('aceitar-cookies')
+      ?.addEventListener('click', grantConsent);
+
+    document.getElementById('recusar-cookies')
+      ?.addEventListener('click', denyConsent);
+  });
+})();
+</script>    <!-- ////////////////////// FIM PARTE #1 ////////////////////// -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+                <a href="https://www.esplanadajau.com.br" class="brand-logo"><img src="https://www.esplanadajau.com.br/wp-content/uploads/2025/04/logo-1.webp" alt="logo"> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.esplanadajau.com.br/#lazer">LAZER E SOLUÇÕES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.esplanadajau.com.br/#diferenciais">DIFERENCIAIS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.esplanadajau.com.br/#plantas">PLANTAS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.esplanadajau.com.br/#localizacao">LOCALIZAÇÃO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.esplanadajau.com.br/#sobre">SOBRE A RB2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.esplanadajau.com.br/#contato">CONTATO</a>
+            </li>        
+                        <li style="display: flex;align-items: center;">
+              <a class="botao_contato" href="https://api.whatsapp.com/send?phone=1934442247&text=Oi, visitei o site e tenho interesse em saber mais sobre o *Esplanada Jaú*.">AGENDAR VISITA</a>
+            </li>
+          </ul>
+        </div>       
+      </div>
+    </nav>
+  <main>
+<!-- Container 'banner' -->
+
+<!-- Banner -->
+
+<section class="relative" id="videos">
+    <!-- <video class="desktop" width="640" height="540" autoplay muted playsinline poster="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/videos/capa.jpg">
+        <source src="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/videos/banner.mp4" type="video/mp4">
+        Seu navegador não suporta o vídeo.
+    </video>
+    <video class="mobile" width="640" height="540" autoplay muted playsinline poster="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/videos/capa_mob.jpg">
+        <source src="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/videos/banner_mob.mp4" type="video/mp4">
+        Seu navegador não suporta o vídeo.
+    </video>-->
+    <div class="obras absolute">
+        <div class="box-img">
+            <img class="" src="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/banner/obras.svg" alt="Ambientes amplos e integrados entre sala, cozinha e sala de jantar.">
+        </div>
+    </div>
+    <div class="selos absolute">
+        <div class="box-img">
+            <img class="" src="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/banner/selos.svg" alt="Ambientes amplos e integrados entre sala, cozinha e sala de jantar.">
+        </div>
+    </div>
+    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1076504934?h=a532d187a0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1&amp;muted=1&amp;controls=0&amp;loop=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="ESPLANADA_HORIZONTAL (1)"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+</section>
+
+<!-- espacos exclusivos -->
+    <section id="diferenciais" class="exclusivos">
+        <article class="container flex relative">
+
+            <div class="relative">
+                <div class="gradiente">
+                
+                </div>
+                <div class="box-img">
+                    <img class="" src="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/exclusivos/living.webp" alt="Ambientes amplos e integrados entre sala, cozinha e sala de jantar.">
+                </div>
+            </div>
+            <div class="texto absolute">
+                <h1>ESPAÇOS EXCLUSIVOS PENSADOS PARA VOCÊ</h1>
+                <p class="">Sinta a experiência de viver com vários itens de lazer e conveniências que só o Esplanada Jaú pode proporcionar.</p>
+                <p class="">Todos os ambientes serão entregues equipados e decorados.</p>
+            </div>
+        </article>
+    </section>
+<!-- fim espacos exclusivos -->
+<!-- Projetado -->
+    <section class="projetado">
+        <article class="container">
+            <h2>PROJETADO PARA O SEU MOMENTO DE VIDA, SEJA ELE QUAL FOR</h2>
+        </article>
+    </section>
+    <section class="projetadoGaleria">
+        <article class="container" style="display: flex;">
+	<div class="owl-carousel">
+		<a class="aprimeiro" class="aprimeiro" title="Imagem empreendimento" data-fslightbox="gallery" href="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria/decorado1.webp">
+			<div class="box-img">
+				<img class="primeiro" src="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria/decorado1.webp" width="100%" height="100%" alt="imagens churrasqueira">
+			</div>
+		</a>
+		<a class="asegundo" title="Imagem empreendimento" data-fslightbox="gallery" href="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria/decorado2.webp">
+			<div class="box-img">
+				<img class="segundo" src="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria/decorado2.webp" width="100%" height="100%" alt="imagens festas">
+			</div>
+		</a>
+		<a class="aterceiro" title="Imagem empreendimento" data-fslightbox="gallery" href="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria/decorado3.webp">
+			<div class="box-img">
+				<img class="terceiro" src="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria/decorado3.webp" width="100%" height="100%" alt="imagens coworking">
+			</div>
+		</a>
+		<a class="aprimeiro" title="Imagem empreendimento" data-fslightbox="gallery" href="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria/decorado4.webp">
+			<div class="box-img">
+				<img class="primeiro" src="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria/decorado4.webp" width="100%" height="100%" alt="imagens academia">
+			</div>
+		</a>
+		<a class="asegundo" title="Imagem empreendimento" data-fslightbox="gallery" href="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria/decorado5.webp">
+		<div class="box-img">
+			<img class="segundo" src="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria/decorado5.webp" width="100%" height="100%" alt="imagens churrasqueira">
+		</div>
+		</a>
+		<!-- <a class="aprimeiro" title="Imagem empreendimento" data-fslightbox="gallery" href="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria/jogos.webp">
+			<div class="box-img">
+				<img class="primeiro" src="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria/jogos.webp" width="100%" height="100%" alt="imagens jogos">
+			</div>
+		</a>
+		<a class="asegundo" title="Imagem empreendimento" data-fslightbox="gallery" href="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria/playground.webp">
+			<div class="box-img">
+				<img class="segundo" src="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria/playground.webp" width="100%" height="100%" alt="imagens Playground">
+			</div>
+		</a>
+		<a class="aterceiro" title="Imagem empreendimento" data-fslightbox="gallery" href="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria/quadra.webp">
+			<div class="box-img">
+				<img class="terceiro" src="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria/quadra.webp" width="100%" height="100%" alt="imagens quadra">
+			</div>
+		</a> -->
+	</div>
+</article>    </section>
+<!-- fim Projetado -->
+
+<!-- Lazer incrível -->
+    <section id="lazer" class="lazer">
+        <article class="container">
+	<h2 class="center-align mainTitle upper">Lazer Incrivel</h2>
+	<p class="center-align">
+		Sua família viverá momentos únicos, em todos os ambientes do seu novo lar.
+	</p>
+</article>
+
+<article class="espaco">
+	<div class="row">
+		<div class="col-6 col-lg-4">
+			<div class="flex">
+				<div class="quadrado">
+				<svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 53 53" fill="none">
+				<path d="M23.02 0H4.69C3.84501 0 3.16 0.685004 3.16 1.53V12.22C3.16 13.065 3.84501 13.75 4.69 13.75H23.02C23.865 13.75 24.55 13.065 24.55 12.22V1.53C24.55 0.685004 23.865 0 23.02 0Z" fill="white"/>
+				<path d="M47.57 0H29.24C28.395 0 27.71 0.685004 27.71 1.53V12.22C27.71 13.065 28.395 13.75 29.24 13.75H47.57C48.415 13.75 49.1 13.065 49.1 12.22V1.53C49.1 0.685004 48.415 0 47.57 0Z" fill="white"/>
+				<path d="M41.86 16.8101H34.73V19.4601H41.86V16.8101Z" fill="white"/>
+				<path d="M17.42 16.8101H10.3V19.4601H17.42V16.8101Z" fill="white"/>
+				<path d="M17.94 31.6801H9.79C7.82 31.6801 6.22 33.2801 6.22 35.2501V37.3101C6.22 38.1501 6.9 38.8401 7.75 38.8401H19.97C20.81 38.8401 21.5 38.1601 21.5 37.3101V35.2501C21.5 33.2801 19.9 31.6801 17.93 31.6801H17.94Z" fill="white"/>
+				<path d="M18.44 49.1H15.39V41.89H12.33V49.1H9.28C8.44 49.1 7.75 49.78 7.75 50.63C7.75 51.48 8.43 52.16 9.28 52.16H18.44C19.28 52.16 19.97 51.48 19.97 50.63C19.97 49.78 19.29 49.1 18.44 49.1Z" fill="white"/>
+				<path d="M42.37 31.6801H34.22C32.25 31.6801 30.65 33.2801 30.65 35.2501V37.3101C30.65 38.1501 31.33 38.8401 32.18 38.8401H44.4C45.24 38.8401 45.93 38.1601 45.93 37.3101V35.2501C45.93 33.2801 44.33 31.6801 42.36 31.6801H42.37Z" fill="white"/>
+				<path d="M42.88 49.1H39.83V41.89H36.77V49.1H33.72C32.88 49.1 32.19 49.78 32.19 50.63C32.19 51.48 32.87 52.16 33.72 52.16H42.88C43.72 52.16 44.41 51.48 44.41 50.63C44.41 49.78 43.73 49.1 42.88 49.1Z" fill="white"/>
+				<path d="M0 22.51V50.62C0 51.46 0.679999 52.15 1.53 52.15C2.38 52.15 3.06 51.47 3.06 50.62V28.59H24.55V50.62C24.55 51.46 25.23 52.15 26.08 52.15C26.93 52.15 27.61 51.47 27.61 50.62V28.59H49.1V50.62C49.1 51.46 49.78 52.15 50.63 52.15C51.48 52.15 52.16 51.47 52.16 50.62V22.51H0.0100021H0Z" fill="white"/>
+				</svg>
+				</div>
+				<div>
+					<p class="texto upper">
+						COWORKING
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-6 col-lg-4">
+			<div class="flex">
+				<div class="quadrado">
+					<svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 53 53" fill="none">
+						<path d="M27.8362 17.51L17.4912 27.855L24.3148 34.6786L34.6598 24.3336L27.8362 17.51Z" fill="white"/>
+						<path d="M1.41 32.26C-0.47 34.14 -0.47 37.2 1.41 39.09L3.83001 41.51L2.58001 42.76C1.67001 43.67 1.17001 44.88 1.17001 46.17C1.17001 47.46 1.67001 48.67 2.58001 49.58C3.49001 50.49 4.7 50.99 5.99 50.99C7.28 50.99 8.47 50.5 9.38 49.6C9.38 49.6 9.39001 49.59 9.40001 49.58L10.65 48.33L13.07 50.75C13.98 51.66 15.19 52.16 16.48 52.16C17.77 52.16 18.98 51.66 19.89 50.75C20.33 50.31 20.67 49.8 20.9 49.26L2.88 31.24C2.33 31.48 1.82001 31.82 1.39001 32.26H1.41Z" fill="white"/>
+						<path d="M50.74 13.09L48.32 10.67L49.56 9.43C49.56 9.43 49.57 9.42 49.58 9.41C51.46 7.53 51.46 4.47 49.58 2.58C48.67 1.67 47.46 1.17 46.17 1.17C44.88 1.17 43.67 1.67 42.76 2.58L42.74 2.6L41.51 3.83L39.09 1.41C38.18 0.5 36.97 0 35.68 0C34.39 0 33.18 0.5 32.27 1.41C31.83 1.85 31.49 2.36 31.26 2.9L49.28 20.92C49.83 20.68 50.33 20.34 50.77 19.91C51.68 19 52.18 17.79 52.18 16.5C52.18 15.21 51.68 14 50.77 13.09H50.74Z" fill="white"/>
+						<path d="M22.15 36.84L15.32 30.01L10.57 25.26C9.65999 24.35 8.44999 23.85 7.15999 23.85C5.86999 23.85 4.66 24.35 3.75 25.26C3.31 25.7 2.96999 26.21 2.73999 26.75L25.43 49.44C25.98 49.2 26.48 48.86 26.92 48.42C27.83 47.51 28.33 46.3 28.33 45.01C28.33 43.72 27.83 42.51 26.92 41.6L22.17 36.85L22.15 36.84Z" fill="white"/>
+						<path d="M25.24 3.75999C23.36 5.63999 23.36 8.70999 25.24 10.59L29.99 15.34L36.82 22.17L41.57 26.92C42.48 27.83 43.69 28.33 44.98 28.33C46.27 28.33 47.48 27.83 48.39 26.92C48.83 26.48 49.17 25.98 49.41 25.43L26.72 2.73999C26.17 2.97999 25.67 3.31999 25.23 3.75999H25.24Z" fill="white"/>
+					</svg>
+				</div>
+				<div>
+					<p class="texto upper">
+						ACADEMIA
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-6 col-lg-4">
+			<div class="flex">
+				<div class="quadrado">
+					<svg xmlns="http://www.w3.org/2000/svg" width="48" height="45" viewBox="0 0 48 45" fill="none">
+						<path d="M44.55 12.66H39.7L28 0.960034C27.49 0.450034 26.81 0.160034 26.08 0.160034C25.35 0.160034 24.67 0.440034 24.16 0.960034C24.06 1.06003 23.99 1.16003 23.91 1.27003C23.83 1.16003 23.75 1.06003 23.66 0.960034C22.6 -0.099966 20.88 -0.099966 19.82 0.960034L8.12 12.66H3.26C1.46 12.66 0 14.12 0 15.92V18.09C0 19.89 1.46 21.35 3.26 21.35H44.55C46.35 21.35 47.81 19.89 47.81 18.09V15.92C47.81 14.12 46.35 12.66 44.55 12.66ZM15.79 12.66L23.65 4.80003C23.75 4.70003 23.82 4.60003 23.9 4.49003C23.98 4.60003 24.06 4.70003 24.15 4.80003L32.01 12.66H15.79Z" fill="white"/>
+						<path d="M6.00001 39.51C6.38001 42.17 8.69001 44.17 11.38 44.17H36.44C39.13 44.17 41.44 42.17 41.82 39.51L44.1 23.53H3.71001L5.99001 39.51H6.00001ZM30.42 28.96C30.42 28.36 30.91 27.87 31.51 27.87H33.68C34.28 27.87 34.77 28.36 34.77 28.96V38.74C34.77 39.34 34.28 39.83 33.68 39.83H31.51C30.91 39.83 30.42 39.34 30.42 38.74V28.96ZM21.73 28.96C21.73 28.36 22.22 27.87 22.82 27.87H24.99C25.59 27.87 26.08 28.36 26.08 28.96V38.74C26.08 39.34 25.59 39.83 24.99 39.83H22.82C22.22 39.83 21.73 39.34 21.73 38.74V28.96ZM13.04 28.96C13.04 28.36 13.53 27.87 14.13 27.87H16.3C16.9 27.87 17.39 28.36 17.39 28.96V38.74C17.39 39.34 16.9 39.83 16.3 39.83H14.13C13.53 39.83 13.04 39.34 13.04 38.74V28.96Z" fill="white"/>
+					</svg>
+				</div>
+				<div>
+					<p class="texto upper">
+						Minimercado
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-6 col-lg-4">
+			<div class="flex">
+				<div class="quadrado">
+					<svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 53 53" fill="none">
+						<path d="M33.71 26.0001C31.61 24.1101 28.92 23.0701 26.07 23.0701C23.22 23.0701 20.53 24.1001 18.43 26.0001V27.6601H33.71V26.0001Z" fill="white"/>
+						<path d="M33.71 30.7201H18.43V35.3001H33.71V30.7201Z" fill="white"/>
+						<path d="M35.87 9.33008H16.27L11.69 13.9101H40.46L35.87 9.33008Z" fill="white"/>
+						<path d="M33.71 0.160034H18.43V6.27003H33.71V0.160034Z" fill="white"/>
+						<path d="M15.38 24.7201L15.83 24.2701C18.57 21.5301 22.21 20.0301 26.08 20.0301C29.95 20.0301 33.59 21.5401 36.33 24.2701L36.78 24.7201V35.3101H42.89V16.9701H9.28V35.3101H15.39V24.7201H15.38Z" fill="white"/>
+						<path d="M16.9 47.53H10.79V52.32H16.9V47.53Z" fill="white"/>
+						<path d="M41.35 47.53H35.24V52.32H41.35V47.53Z" fill="white"/>
+						<path d="M52.15 38.36H0V44.47H52.15V38.36Z" fill="white"/>
+					</svg>
+				</div>
+				<div>
+					<p class="texto upper">
+						CHURRASQUEIRA
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-6 col-lg-4">
+			<div class="flex">
+				<div class="quadrado">
+					<svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 53 53" fill="none">
+						<path d="M51.5048 47.5701L44.9448 42.9801L43.8948 37.4801C43.4848 35.1601 45.1148 32.7901 46.8348 30.2901C48.6048 27.7301 50.4148 25.0901 50.3748 22.0501C47.2748 19.8501 43.2648 19.4601 39.7648 21.1201C38.7048 21.4701 34.8348 24.3301 29.0248 23.0201C29.0848 23.5301 29.1148 24.0401 29.2048 24.5501C29.8348 28.1001 32.7948 30.2201 35.6648 32.2601C38.1348 34.0201 40.4748 35.6901 40.8848 38.0101L41.9348 43.5101L37.3348 50.0701C36.9848 50.5801 36.9648 51.2501 37.2948 51.7701C37.6348 52.3001 38.2548 52.5601 38.8448 52.4501L50.8848 50.3301C51.4948 50.2201 51.9748 49.7601 52.1148 49.1601C52.2448 48.5601 52.0048 47.9301 51.4948 47.5801L51.5048 47.5701Z" fill="white"/>
+						<path d="M26.0748 0.32019C25.2348 0.32019 24.5448 1.00019 24.5448 1.85019V5.01019C24.5448 5.85019 25.2248 6.54019 26.0748 6.54019C26.9248 6.54019 27.6048 5.86019 27.6048 5.01019V1.85019C27.6048 1.01019 26.9248 0.32019 26.0748 0.32019Z" fill="white"/>
+						<path d="M32.1848 8.69017L34.3448 6.53017C34.9448 5.93017 34.9448 4.97017 34.3448 4.37017C33.7448 3.77017 32.7848 3.77017 32.1848 4.37017L30.0248 6.53017C29.4248 7.13017 29.4248 8.09017 30.0248 8.69017C30.6248 9.29017 31.5848 9.29017 32.1848 8.69017Z" fill="white"/>
+						<path d="M19.9648 8.69017C20.5648 9.29017 21.5248 9.29017 22.1248 8.69017C22.7248 8.09017 22.7248 7.13017 22.1248 6.53017L19.9648 4.37017C19.3648 3.77017 18.4048 3.77017 17.8048 4.37017C17.2048 4.97017 17.2048 5.93017 17.8048 6.53017L19.9648 8.69017Z" fill="white"/>
+						<path d="M20.8348 10.2202L8.79483 8.10024C8.22483 8.00024 7.64481 8.23024 7.30481 8.69024C7.04481 9.12024 4.17483 12.3402 2.51483 18.2202C6.04483 16.7002 10.1048 16.6602 13.7048 18.3702C14.7548 18.6902 18.1848 21.4002 23.3248 19.7602C23.3248 14.8102 22.1248 11.7302 22.0348 11.2902C21.8648 10.7302 21.4048 10.3202 20.8348 10.2202Z" fill="white"/>
+						<path d="M12.3948 21.1301C8.9148 19.4801 4.87482 19.9101 1.78482 22.0901C1.76482 25.1101 3.56483 27.7401 5.32483 30.3001C7.04483 32.8001 8.67483 35.1701 8.26483 37.4901L7.21481 42.9901L0.654815 47.5801C0.144815 47.9401 -0.0951804 48.5601 0.0348196 49.1601C0.16482 49.7601 0.654831 50.2301 1.26483 50.3301L13.3048 52.4501C13.8948 52.5601 14.5248 52.3001 14.8548 51.7701C15.1848 51.2501 15.1748 50.5801 14.8148 50.0701L10.2148 43.5101L11.2648 38.0101C11.6748 35.6901 14.0148 34.0201 16.4848 32.2601C19.3548 30.2201 22.3148 28.1101 22.9448 24.5501C23.0348 24.0401 23.0648 23.5301 23.1248 23.0101C17.3748 24.3101 13.4248 21.4501 12.3848 21.1201L12.3948 21.1301Z" fill="white"/>
+						<path d="M38.4448 18.3602C42.0748 16.6402 46.1048 16.6602 49.6248 18.1802C48.0048 12.4302 45.0748 9.05023 44.8448 8.68023C44.5048 8.22023 43.9348 7.99023 43.3548 8.09023L31.3148 10.2102C30.7448 10.3102 30.2848 10.7202 30.1148 11.2802C29.9648 11.9502 28.8348 14.5402 28.8248 19.7502C33.9648 21.3802 37.3948 18.6802 38.4448 18.3602Z" fill="white"/>
+					</svg>
+				</div>
+				<div>
+					<p class="texto upper">
+						SALÃO DE FESTAS
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-6 col-lg-4">
+			<div class="flex">
+				<div class="quadrado">
+					<svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44" fill="none">
+						<path d="M42.15 36.1401C41.66 36.2301 41.12 36.2601 40.53 36.2601C37.84 36.2601 36.39 35.4001 35.22 34.7101C34.21 34.1001 33.42 33.6301 31.68 33.6301C29.94 33.6301 29.17 34.1001 28.15 34.7101C26.98 35.4101 25.53 36.2601 22.84 36.2601C20.15 36.2601 18.68 35.4001 17.52 34.7101C16.51 34.1001 15.72 33.6301 13.99 33.6301C12.26 33.6301 11.46 34.1001 10.45 34.7101C9.28001 35.4101 7.81001 36.2601 5.13001 36.2601C4.54001 36.2601 4.00001 36.2301 3.51001 36.1401C2.85001 36.0501 2.27001 35.8801 1.76001 35.7001C1.06001 35.4401 0.50001 35.1201 0.0100098 34.8301V41.3101C0.0100098 42.2701 0.78001 43.0601 1.76001 43.0601H43.9C44.86 43.0601 45.65 42.2701 45.65 41.3101V34.8301C45.14 35.1301 44.59 35.4401 43.9 35.7001C43.39 35.8901 42.82 36.0501 42.15 36.1401Z" fill="white"/>
+						<path d="M45.38 21.5602C44.89 21.7902 44.45 22.0502 44.07 22.2802C42.08 23.6702 38.78 23.6702 37 22.2802C35.97 21.6702 34.73 20.9402 32.62 20.7602V7.34019C32.62 3.47019 29.46 0.32019 25.58 0.32019C24.62 0.32019 23.83 1.10019 23.83 2.07019C23.83 3.04019 24.61 3.82019 25.58 3.82019C26.9 3.82019 28.03 4.55019 28.64 5.61019H18.31C17.53 2.58019 14.79 0.330193 11.52 0.330193C10.56 0.330193 9.77 1.11019 9.77 2.08019C9.77 3.05019 10.55 3.83019 11.52 3.83019C13.47 3.83019 15.05 5.40019 15.06 7.34019V20.8002C14.73 20.7702 14.36 20.7502 13.98 20.7502C11.27 20.7502 9.83 21.6102 8.66 22.3002C6.88 23.6502 3.51 23.7602 1.57 22.3002C1.19 22.0702 0.75 21.8102 0.26 21.5802C0.09 21.8402 0 22.1602 0 22.4902V30.8902C0.61 31.1502 1.12 31.4502 1.57 31.7302C2.19 32.1002 2.74 32.4302 3.49 32.6202C3.93 32.7202 4.45 32.7902 5.11 32.7902C6.84 32.7902 7.64 32.3202 8.65 31.7302C9.82 31.0302 11.27 30.1602 13.97 30.1602C16.67 30.1602 18.11 31.0302 19.28 31.7302C20.29 32.3202 21.08 32.7902 22.82 32.7902C24.56 32.7902 25.33 32.3202 26.35 31.7302C27.52 31.0302 28.97 30.1602 31.66 30.1602C34.35 30.1602 35.82 31.0302 36.98 31.7302C37.99 32.3202 38.78 32.7902 40.51 32.7902C41.16 32.7902 41.68 32.7202 42.13 32.6202C42.88 32.4302 43.43 32.1002 44.05 31.7302C44.5 31.4502 45.01 31.1502 45.62 30.8902V22.4902C45.62 22.1602 45.53 21.8402 45.36 21.5802L45.38 21.5602ZM29.13 21.0402C27.94 21.3402 27.1 21.8402 26.37 22.2802C25.29 22.9102 24.58 23.3402 22.84 23.3502C21.09 23.3502 20.38 22.9202 19.3 22.2802C19.07 22.1402 18.83 22.0002 18.57 21.8602V20.2302H29.13V21.0402ZM29.13 16.7402H18.57V14.6602H29.13V16.7402ZM29.13 11.1702H18.57V9.09019H29.13V11.1702Z" fill="white"/>
+					</svg>
+				</div>
+				<div>
+					<p class="texto upper">
+						PISCINA ADULTO E INFANTIL
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-6 col-lg-4">
+			<div class="flex">
+				<div class="quadrado">
+					<svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 53 53" fill="none">
+						<path d="M19.66 45.3749C19.01 45.3749 18.35 45.3549 17.69 45.3049C12.98 44.9849 8.47 43.5549 4.51 41.1549C5.42 42.4849 6.46 43.7449 7.62 44.9049C12.55 49.8349 19.1 52.5449 26.07 52.5449C30.42 52.5449 34.62 51.4849 38.35 49.4849C38.23 46.2849 37.52 43.1249 36.27 40.1749C31.38 43.5549 25.6 45.3649 19.66 45.3649V45.3749Z" fill="white"/>
+						<path d="M16.48 11.3549C13.07 16.4349 11.56 22.5149 12.18 28.5849C16.48 28.5849 20.77 27.5149 24.57 25.4749C24.73 20.5849 26.11 15.8149 28.58 11.6249C30.66 8.09495 33.46 5.04495 36.77 2.66495C34.88 1.81495 32.89 1.19494 30.83 0.814941C24.97 2.53494 19.89 6.24494 16.47 11.3649L16.48 11.3549Z" fill="white"/>
+						<path d="M43.95 25.575C41.25 20.085 36.74 15.735 31.18 13.245C28.99 16.995 27.77 21.255 27.63 25.615C31.78 28.195 35.22 31.775 37.62 36.015C39.65 39.595 40.89 43.575 41.29 47.655C42.43 46.835 43.51 45.915 44.52 44.905C44.99 44.435 45.44 43.955 45.86 43.455C47.36 37.475 46.69 31.145 43.95 25.575Z" fill="white"/>
+						<path d="M13.94 9.65498C16.51 5.82498 19.91 2.69498 23.84 0.474976C17.71 0.984976 12.02 3.62498 7.62 8.02498C2.91 12.735 0.22 18.945 0 25.575C2.83 27.065 5.92 28.025 9.1 28.405C8.54 21.795 10.23 15.205 13.94 9.66498V9.65498Z" fill="white"/>
+						<path d="M34.9 37.4149C32.75 33.6549 29.68 30.4849 25.98 28.1949C21.74 30.4549 17.01 31.6449 12.23 31.6449C7.38 31.6449 3.83 30.7049 0.110001 29.0249C0.300001 31.0349 0.730003 33.0049 1.37 34.8849C5.81 39.2249 11.66 41.8349 17.9 42.2549C23.98 42.6649 29.97 40.9449 34.9 37.4149Z" fill="white"/>
+						<path d="M44.52 8.01492C43.09 6.58492 41.51 5.33491 39.83 4.28491C37.15 5.97491 34.8 8.14492 32.9 10.6649C38.9 13.4849 43.76 18.2449 46.7 24.2249C48.76 28.4149 49.77 32.9749 49.7 37.5549C51.31 34.1249 52.16 30.3649 52.16 26.4649C52.16 19.4949 49.45 12.9449 44.52 8.01492Z" fill="white"/>
+					</svg>
+				</div>
+				<div>
+					<p class="texto upper">
+						QUADRA DE ESPORTES
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-6 col-lg-4">
+			<div class="flex">
+				<div class="quadrado">
+					<svg xmlns="http://www.w3.org/2000/svg" width="51" height="53" viewBox="0 0 51 53" fill="none">
+						<path d="M45.3083 8.30502H38.3283L29.4083 20.295C29.1183 20.685 28.6683 20.915 28.1783 20.915H11.1183C8.9983 20.915 7.26829 22.635 7.24829 24.745C7.39829 27.995 7.10829 29.785 6.60829 31.665C6.43829 32.405 3.27829 43.155 3.27829 43.155C3.05829 42.945 2.83829 42.735 2.63829 42.525C2.05829 41.915 1.0883 41.885 0.478298 42.455C-0.131702 43.035 -0.161709 44.005 0.408291 44.615C2.41829 46.755 5.4983 48.715 9.0883 50.145C13.1583 51.765 17.6683 52.615 22.1383 52.615C26.9783 52.615 31.7183 51.795 35.8383 50.245C39.6083 48.825 42.6583 46.855 44.4283 44.695C44.9583 44.045 44.8683 43.075 44.2183 42.545C43.5683 42.015 42.5983 42.105 42.0683 42.755C41.7683 43.115 41.4183 43.475 41.0283 43.825L38.4183 34.925C37.3383 31.305 37.0483 27.415 37.5583 23.675C37.8783 22.945 38.4583 22.375 39.1583 22.055L40.0083 26.575C40.1483 27.295 40.7783 27.815 41.5083 27.815H49.1183C49.9583 27.815 50.6483 27.135 50.6483 26.285V13.105C50.3683 10.395 48.0683 8.27502 45.2883 8.27502L45.3083 8.30502ZM22.1583 49.565C18.6683 49.565 15.1583 48.995 11.9083 47.915L15.0983 37.155C16.1783 37.495 17.3083 37.675 18.4483 37.675H25.7183C26.8483 37.675 27.9883 37.495 29.0583 37.155L32.3083 48.205C29.1483 49.095 25.6883 49.565 22.1583 49.565Z" fill="white"/>
+						<path d="M27.4083 17.855L36.3283 5.86497C36.6183 5.47498 37.0683 5.24498 37.5583 5.24498H45.3083C47.2983 5.24498 49.1283 5.93498 50.5683 7.09498C49.9783 3.34498 46.7283 0.474976 42.8183 0.474976H35.4283C33.1083 0.474976 30.9283 1.49498 29.4283 3.26498C29.4283 3.26498 29.4183 3.28498 29.4083 3.29498L22.4783 11.895C22.2583 12.165 22.1383 12.505 22.1383 12.855V17.865H27.4083V17.855Z" fill="white"/>
+						<path d="M2.02829 31.395H3.5183C4.0683 29.465 4.34829 27.985 4.19829 24.845C4.19829 24.825 4.19829 24.795 4.19829 24.775C4.19829 20.955 7.3083 17.855 11.1183 17.855H17.7783C16.7083 14.465 13.5283 11.995 9.77829 11.995H8.8783C4.2583 11.995 0.498291 15.755 0.498291 20.375V29.875C0.498291 30.715 1.17829 31.405 2.02829 31.405V31.395Z" fill="white"/>
+					</svg>
+				</div>
+				<div>
+					<p class="texto upper">
+						PLAYGROUND E ESPAÇO PET
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-6 col-lg-4">
+			<div class="flex">
+				<div class="quadrado">
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="53" viewBox="0 0 24 53" fill="none">
+						<path d="M18.9781 24.325C20.2881 24.325 21.3481 23.265 21.3481 21.955C21.3481 20.645 20.2881 19.585 18.9781 19.585H4.75806C3.44806 19.585 2.38803 20.645 2.38803 21.955C2.38803 23.265 3.44806 24.325 4.75806 24.325H18.9781Z" fill="white"/>
+						<path d="M0.00805664 45.665V51.595C0.00805664 52.245 0.538029 52.785 1.19803 52.785H22.5381C23.1881 52.785 23.7281 52.255 23.7281 51.595V45.665H0.0180359H0.00805664Z" fill="white"/>
+						<path d="M4.01803 17.215H19.708L23.588 9.44499C23.798 9.01499 23.738 8.50499 23.428 8.13499C23.108 7.77499 22.608 7.635 22.158 7.785L16.018 9.83499L13.458 4.715C13.948 4.275 14.228 3.64499 14.228 2.98499C14.228 1.67499 13.168 0.61499 11.858 0.61499C10.548 0.61499 9.48803 1.67499 9.48803 2.98499C9.48803 3.64499 9.76805 4.275 10.258 4.715L7.69802 9.83499L1.55804 7.785C1.09804 7.635 0.608047 7.78499 0.288047 8.13499C-0.0219532 8.49499 -0.0919568 9.01499 0.128043 9.44499L4.00805 17.215H4.01803Z" fill="white"/>
+						<path d="M23.2881 43.295C19.7981 36.135 19.148 31.755 19.018 26.705H4.71805C4.58805 31.755 3.93803 36.135 0.448029 43.295H23.2881Z" fill="white"/>
+					</svg>
+				</div>
+				<div>
+					<p class="texto upper">
+						GAMES
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-6 col-lg-4 desk">
+
+		</div>
+		<div class="col-6 col-lg-4">
+			<div class="flex">
+				<div class="quadrado">
+					<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+						<path d="M34.77 0.61499H4.34998C1.95998 0.61499 0 2.57499 0 4.96499V35.385C0 37.775 1.95998 39.735 4.34998 39.735H34.77C37.16 39.735 39.12 37.775 39.12 35.385V4.96499C39.12 2.57499 37.16 0.61499 34.77 0.61499ZM11.95 7.13499C13.45 7.13499 14.67 8.35499 14.67 9.85499C14.67 11.355 13.45 12.575 11.95 12.575C10.45 12.575 9.22998 11.355 9.22998 9.85499C9.22998 8.35499 10.45 7.13499 11.95 7.13499ZM17.39 24.515H15.22V33.205H8.69998V24.515H6.53V19.085C6.53 16.695 8.48997 14.735 10.88 14.735H13.05C15.44 14.735 17.4 16.695 17.4 19.085V24.515H17.39ZM27.17 31.035L21.74 22.345H32.61L27.18 31.035H27.17ZM21.73 17.995L27.16 9.30499L32.59 17.995H21.72H21.73Z" fill="white"/>
+					</svg>
+				</div>
+				<div>
+					<p class="texto upper">
+						ELEVADOR
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-6 col-lg-4 desk">
+
+		</div>
+	</div>
+</article>    </section>
+<!-- fim Lazer incrível -->
+
+<!-- Plantas inteligentes -->
+<section id="plantas" class="plantas">
+    <article class="container">
+        <h2 class="center-align mainTitle">PLANTAS INTELIGENTES</h2>
+        <p class="center-align">Ambientes projetados para facilitar o seu dia.</p>
+    </article>
+    <article class="container">
+	<div class="multiple-items mapPlants">
+		<div>
+			<header class="small_container">
+				<h2 class="sub_tittle center-align">
+					PLANTA SUÍTE</h2>
+			</header>
+			<div class="margin-top container">
+				<div class="container reveal">
+					<a title="planta empreendimento" data-fslightbox="gallery1" href="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/plantas/tipo_02.webp">
+						<img width="580px" class="" src="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/plantas/tipo_02.webp" alt="Planta contendo uma suíte, quarto, banheiro, sala, cozinha e área externa ">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div>
+			<header class="small_container">
+				<h2 class="sub_tittle center-align">
+					PLANTA <text class="planta-texto">2 DORMS.</text>
+				</h2>
+			</header>
+			<div class="margin-top container">
+				<div class="container reveal">
+					<a title="planta empreendimento" data-fslightbox="gallery1" href="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/plantas/tipo_03.webp">
+						<img width="580px" class="" src="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/plantas/tipo_03.webp" alt="Dois dormitórios com banheiro, living e área externa">
+					</a>
+				</div>
+			</div>
+		</div>
+			<div>
+			<header class="small_container reveal">
+				<h2 class="sub_tittle center-align">
+					PLANTA <text class="planta-texto">STUDIO</text>
+				</h2>
+			</header>
+			<div class="margin-top container">
+				<div class="container">
+					<a title="planta empreendimento" data-fslightbox="gallery1" href="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/plantas/tipo_01.webp">
+						<img width="580px" class="" src="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/plantas/tipo_01.webp" alt="Um quarto com banheiro, living e área externa">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</article>    <article id="decorado" class="container">
+	<h2>CONHEÇA O DECORADO</h2>
+	<div class="multiple-items2 decorado">
+		<div>
+			<div class="margin-top container">
+				<div class="container reveal">
+					<a title=" empreendimento" class="decorado" data-fslightbox="gallery2" href="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria2/1.webp">
+						<img width="580px" class="" src="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria2/1.webp" alt="Planta contendo uma suíte, quarto, banheiro, sala, cozinha e área externa ">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="margin-top container">
+				<div class="container reveal">
+					<a title="empreendimento" class="decorado" data-fslightbox="gallery2" href="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria2/2.webp">
+						<img width="580px" class="" src="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria2/2.webp" alt="Dois dormitórios com banheiro, living e área externa">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="margin-top container">
+				<div class="container">
+					<a title="empreendimento" class="decorado" data-fslightbox="gallery2" href="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria2/3.webp">
+						<img width="580px" class="" src="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria2/3.webp" alt="Um quarto com banheiro, living e área externa">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="margin-top container">
+				<div class="container reveal">
+					<a title="empreendimento" class="decorado" data-fslightbox="gallery2" href="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria2/4.webp">
+						<img width="580px" class="" src="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria2/4.webp" alt="Planta contendo uma suíte, quarto, banheiro, sala, cozinha e área externa ">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="margin-top container">
+				<div class="container reveal">
+					<a title="empreendimento" class="decorado" data-fslightbox="gallery2" href="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria2/5.webp">
+						<img width="580px" class="" src="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria2/5.webp" alt="Dois dormitórios com banheiro, living e área externa">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="margin-top container">
+				<div class="container reveal">
+					<a title="empreendimento" class="decorado" data-fslightbox="gallery2" href="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria2/6.webp">
+						<img width="580px" class="" src="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria2/6.webp" alt="Dois dormitórios com banheiro, living e área externa">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="margin-top container">
+				<div class="container">
+					<a title="empreendimento" class="decorado" data-fslightbox="gallery2" href="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria2/7.webp">
+						<img width="580px" class="" src="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria2/7.webp" alt="Um quarto com banheiro, living e área externa">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="margin-top container">
+				<div class="container reveal">
+					<a title="empreendimento" class="decorado" data-fslightbox="gallery2" href="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria2/8.webp">
+						<img width="580px" class="" src="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria2/8.webp" alt="Planta contendo uma suíte, quarto, banheiro, sala, cozinha e área externa ">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="margin-top container">
+				<div class="container reveal">
+					<a title="empreendimento" class="decorado" data-fslightbox="gallery2" href="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria2/9.webp">
+					<img width="580px" class="" src="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria2/9.webp" alt="Dois dormitórios com banheiro, living e área externa">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="margin-top container">
+				<div class="container reveal">
+					<a title="empreendimento" class="decorado" data-fslightbox="gallery2" href="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria2/10.webp">
+						<img width="580px" class="" src="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria2/10.webp" alt="Planta contendo uma suíte, quarto, banheiro, sala, cozinha e área externa ">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="margin-top container">
+				<div class="container reveal">
+					<a title="empreendimento" class="decorado" data-fslightbox="gallery2" href="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria2/11.webp">
+						<img width="580px" class="" src="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria2/11.webp" alt="Dois dormitórios com banheiro, living e área externa">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="margin-top container">
+				<div class="container">
+					<a title="empreendimento" class="decorado" data-fslightbox="gallery2" href="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria2/12.webp">
+						<img width="580px" class="" src="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria2/12.webp" alt="Um quarto com banheiro, living e área externa">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="margin-top container">
+				<div class="container">
+					<a title="empreendimento" class="decorado" data-fslightbox="gallery2" href="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria2/13.webp">
+						<img width="580px" class="" src="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria2/13.webp" alt="Um quarto com banheiro, living e área externa">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</article></section>
+
+<!-- fim Plantas inteligentes -->
+
+<!-- Plantas inteligentes -->
+<section id="localizacao" class="localizacao">
+    <div class="img_fundo">
+        <img width="75%" class="" src="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/localizacao/fundo_localizacao.webp" alt="Imagem de fundo com o logo do Esplanada Jaú">
+    </div>
+    <article class="container">
+        <h2 class="mainTitle center-align">Localização</h2>
+        <p class="center-align">Perto de tudo o que você precisa para levar uma vida mais prática.</p>
+    </article>
+    <article class="container espaco">
+        <iframe title="Mapa no google maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14769.798738658403!2d-48.56350460323391!3d-22.26094940537868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b8a7c554c530cf%3A0xc420b25d70daa39b!2sR.%20Hon%C3%B3rio%20Meschieri%20-%20Jardim%20Olimpia%2C%20Ja%C3%BA%20-%20SP%2C%2017208-570!5e0!3m2!1spt-BR!2sbr!4v1711983777820!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div>
+
+        </div>
+        <div>
+            <p class="center-align">
+                Rua Honório Meschieri, esquina com Rua Sálvio Pacheco de Almeida Prado - Jaú
+            </p>
+        </div>
+    </article>
+    <article id="sobre" class="container">
+        <h2 class="mainTitle center-align">Sobre a incorporadora</h2>
+        <p class="center-align">Eficiência, qualidade e modernidade.</p>
+        <p class="center-align">O sucesso é algo recorrente em todos os empreendimentos da RB2. Para nós, muito mais do que uma unidade imobiliária, trata-se do seu lar. E levamos isto muito a sério.</p>
+        <p class="center-align">Em todas as etapas do processo, mantemos-nos comprometidos com a expertise máxima, eficiência, qualidade construtiva e respeito. Principalmente a você, o nosso principal parceiro.</p>
+    </article>
+    <article class="logos">
+        <div>
+            <img width="180px" class="" src="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/logo_rb2.webp" alt="Logo da Rb2">
+        </div>
+        <div>
+            <img width="280px" class="" src="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/logo_r2m.webp" alt="Logo da R2m">
+        </div>
+    </article>
+</section>
+
+<!-- fim Plantas inteligentes -->
+
+<!-- Contato -->
+
+<section id="contato" class="contato">
+    <div class="fundo">
+        <img width="100%" height="100%" class="" src="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/contato/fundo_contato.webp" alt="Imagem de fundo com o logo do Esplanada Jaú">
+    </div>
+    <article class="container flex">
+        <div>
+            <h2 class="center-align">QUER SABER MAIS?<br> DEIXE AQUI O SEU CONTATO</h2>
+            
+<div class="wpcf7 no-js" id="wpcf7-f7-o1" lang="pt-BR" dir="ltr" data-wpcf7-id="7">
+<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
+<form action="/#wpcf7-f7-o1" method="post" class="wpcf7-form init" aria-label="Formulários de contato" novalidate="novalidate" data-status="init">
+<fieldset class="hidden-fields-container"><input type="hidden" name="_wpcf7" value="7" /><input type="hidden" name="_wpcf7_version" value="6.1.5" /><input type="hidden" name="_wpcf7_locale" value="pt_BR" /><input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f7-o1" /><input type="hidden" name="_wpcf7_container_post" value="0" /><input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+</fieldset>
+<div class="entradas">
+	<p><span class="wpcf7-form-control-wrap" data-name="your-name"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" autocomplete="name" aria-required="true" aria-invalid="false" placeholder="Nome" value="" type="text" name="your-name" /></span>
+	</p>
+</div>
+<div class="entradas">
+	<p><span class="wpcf7-form-control-wrap" data-name="your-email"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email" autocomplete="email" aria-required="true" aria-invalid="false" placeholder="E-mail" value="" type="email" name="your-email" /></span>
+	</p>
+</div>
+<div class="entradas">
+	<p><span class="wpcf7-form-control-wrap" data-name="telefone"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-tel wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-tel telefone" id="telefone" aria-required="true" aria-invalid="false" placeholder="Celular" value="" type="tel" name="telefone" /></span>
+	</p>
+</div>
+<div class="botao_personalizado">
+ <!-- <div class="verde1"></div>
+                <div class="fundo_azul"></div> -->
+	<div class="content">
+		<p><input class="wpcf7-form-control wpcf7-submit has-spinner" type="submit" value="Enviar" />
+		</p>
+	</div>
+</div><div class="wpcf7-response-output" aria-hidden="true"></div>
+</form>
+</div>
+            <!--  -->
+        </div>
+        <div class="espaco agende">
+            <!-- <h2 class="center-align">FALE AGORA COM <br>NOSSOS CONSULTORES</h2>
+            <div class="botao_personalizado">
+                <div class="verde1"></div>
+                <div class="fundo_azul"></div>
+                <div class="content">
+                    <a href="https://api.whatsapp.com/send?phone=1934442247&text=Ol%C3%A1%2C+tenho+interesse+no+esplanada+jau" title="agende uma visita" aria-label="Ficha Técnica" target="_blank"><i class="fa-brands fa-whatsapp"></i>&nbsp;Agende uma visita</a>
+                </div>
+            </div> -->
+            <div style="">
+                <h2 class="center-align">Visite o nosso <br>plantão de vendas:</h2>
+                <address style="font-weight: bold;">Av. Tunin Capelozza, 320 - Chácara Braz Miraglia (em frente ao Cano Torto).</address>
+            </div>
+        </div>
+    </article>
+</section>
+
+<!-- Contato -->
+
+</main>
+<footer>
+  <section class="rodape">
+    <article class="container">
+      <div>
+        <img width="220px" class="" src="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/banner/logo.webp" alt="">
+      </div>
+      <div style="display: flex;justify-content: center;flex-direction: column;align-items: center;margin-top: 20px;">
+        <p>Desenvolvido por C4 Publicidade </p>
+        <p class="center-align">Copyright <i id="ano"></i> © <a href="https://www.esplanadajau.com.br/politica-de-privacidade/">Todos os direitos reservados </a>| RB2</p>
+      </div>
+      <script>
+          document.getElementById("ano").textContent = new Date().getFullYear();
+      </script>
+    </article>
+  </section>
+    <script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/c4themeEsplanada/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script type="text/javascript">
+var disableSubmit = false;
+jQuery('input.wpcf7-submit[type="submit"]').click(function() {
+    jQuery(':input[type="submit"]').attr('value',"Enviando...")
+    if (disableSubmit == true) {
+        return false;
+    }
+    disableSubmit = true;
+    return true;
+})
+var wpcf7Elm = document.querySelector( '.wpcf7' );
+if(wpcf7Elm){
+wpcf7Elm.addEventListener( 'wpcf7submit', function( event ) {
+    jQuery(':input[type="submit"]').attr('value',"Enviar")
+    disableSubmit = false;
+}, false );
+}
+</script>
+		<!-- Snippet do Gerenciador de Etiqueta do Google (noscript) adicionado pelo Site Kit -->
+		<noscript>
+			<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MT6W8BFF" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+		</noscript>
+		<!-- Finalizar o snippet do Gerenciador de Tags do Google (noscript) adicionado pelo Site Kit -->
+		<script type="text/javascript" src="https://www.esplanadajau.com.br/wp-includes/js/dist/hooks.min.js?ver=dd5603f07f9220ed27f1" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://www.esplanadajau.com.br/wp-includes/js/dist/i18n.min.js?ver=c26c3dc7bed366793375" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.esplanadajau.com.br/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1.5" id="swv-js"></script>
+<script type="text/javascript" id="contact-form-7-js-translations">
+/* <![CDATA[ */
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "contact-form-7", {"translation-revision-date":"2025-05-19 13:41:20+0000","generator":"GlotPress\/4.0.1","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n > 1;","lang":"pt_BR"},"Error:":["Erro:"]}},"comment":{"reference":"includes\/js\/index.js"}} );
+//# sourceURL=contact-form-7-js-translations
+/* ]]> */
+</script>
+<script type="text/javascript" id="contact-form-7-js-before">
+/* <![CDATA[ */
+var wpcf7 = {
+    "api": {
+        "root": "https:\/\/www.esplanadajau.com.br\/wp-json\/",
+        "namespace": "contact-form-7\/v1"
+    }
+};
+//# sourceURL=contact-form-7-js-before
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.esplanadajau.com.br/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1.5" id="contact-form-7-js"></script>
+<script type="text/javascript" src="https://www.esplanadajau.com.br/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-consent-mode-bc2e26cfa69fcd4a8261.js" id="googlesitekit-consent-mode-js"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://www.esplanadajau.com.br/wp-includes/js/wp-emoji-release.min.js?ver=6.9.4"}}
+</script>
+<script type="module">
+/* <![CDATA[ */
+/*! This file is auto-generated */
+const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+//# sourceURL=https://www.esplanadajau.com.br/wp-includes/js/wp-emoji-loader.min.js
+/* ]]> */
+</script>
+    <!-- ////////////////////// LGPD - PARTE #3/3 || Colocar após o jQuery ////////////////////// -->
+      <script src="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/js/cookies.min.js"></script>
+      <script>
+                // Verifica se Cookie existe e executa a ação
+        if (document.cookie.indexOf('cookielgpd_www.esplanadajau.com.br') >= 0) {
+            // Se Existe, não exibe o aviso          
+          }
+        else {
+            // Se não existe, exibe o aviso
+            $('.lgpd').fadeIn(300);
+        }
+
+       // Seta o Cookie quando clicar para fechar o aviso
+        $('.lgpd #fecha').click(function() {
+          // Esconde o aviso
+          $('.lgpd').hide();
+          var date = new Date();
+          // Minutos: o primeiro número dos 3 é a quantidade de minutos
+          date.setTime(date.getTime() + (30 * 60 * 1000));
+          // Usar 'date' no 'expires' para transformar em minutos, algum valor numérico diretamente em 'expires' é a quantidade de dias desejada
+          Cookies.set('cookielgpd_www.esplanadajau.com.br', 'cookielgpd_www.esplanadajau.com.br_value', { expires: 30, path: '/' });
+        });
+      </script>
+      <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+      <script src="https://www.c4publicidade.com.br/lgpd/lgpd.js"></script>
+      <script src="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/js/lgpd.js"></script>
+      <!-- ////////////////////// FIM PARTE #3 ////////////////////// -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"  crossorigin="anonymous"></script>
+      <!-- inicializações -->
+      <script src="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/js/init.js"></script>
+      <script src="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/js/script.js"></script>
+	    <script src="https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/js/fslightbox.js"></script>
+      <!-- Script Slick carousel -->
+      <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        // Slick Slider
+        $('.multiple-items').slick({
+          infinite: true,
+          dots: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          prevArrow:"<img class='a-left control-c prev slick-prev' src='https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/prev.webp' alt='Image de seta apontando para a esquerda'>",
+          nextArrow:"<img class='a-right control-c next slick-next' src='https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/next.webp' alt='Image de seta apontando para a direita'>"
+        });
+        $('.multiple-items2').slick({
+          infinite: true,
+          dots: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,        
+        });
+        $(document).ready(function(){
+          $(".owl-carousel").owlCarousel({
+            items: 1,
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            nav: false,
+            dots: true
+          });
+        });      
+
+		  // Obtém o botão e a div da frase
+			var meuBotao = document.getElementById('meuBotao');
+			var fraseDiv = document.getElementById('fraseDiv');
+			// Adiciona um ouvinte de eventos para o evento 'mouseover'
+			meuBotao.addEventListener('mouseover', function() {
+				// Adiciona a classe 'show' à div da frase ao passar o mouse
+				fraseDiv.classList.add('show');
+			});
+			// Adiciona um ouvinte de eventos para o evento 'mouseout'
+			meuBotao.addEventListener('mouseout', function() {
+				// Remove a classe 'show' da div da frase ao tirar o mouse
+				fraseDiv.classList.remove('show');
+			});
+
+      //fecha o menu após clicar em uma opção
+      document.addEventListener('DOMContentLoaded', function () {
+        const navLinks = document.querySelectorAll('.menu_nav_uncollapse');
+        const navbarCollapse = document.querySelector('.navbar-collapse');
+
+        navLinks.forEach(function (link) {
+          link.addEventListener('click', function () {
+            const bsCollapse = new bootstrap.Collapse(navbarCollapse, {
+              toggle: false
+            });
+            bsCollapse.hide(); // Fecha o menu
+            console.log("menu fechado")
+          });
+        });
+      });
+
+      document.addEventListener('click', function (event) {
+        const navbar = document.querySelector('.navbar');
+        const navbarCollapse = document.querySelector('.navbar-collapse');
+        const isClickInsideNavbar = navbar.contains(event.target);
+
+        // Verifica se o menu está aberto
+        const isExpanded = navbarCollapse.classList.contains('show');
+
+        if (!isClickInsideNavbar && isExpanded) {
+          const bsCollapse = new bootstrap.Collapse(navbarCollapse, {
+            toggle: false
+          });
+          bsCollapse.hide(); // Fecha o menu
+        }
+      });
+      </script>
+  </footer>
+  </body>
+</html>
