@@ -49,7 +49,7 @@ const projects = [
     name: 'Residência Alphaville',
     status: 'Entregue',
     location: 'Campinas, SP',
-    image: 'https://r2m.com.br/wp-content/themes/r2m/img/card_cap/IMG_2659.JPG',
+    image: '/projects/IMG_2659.JPG',
     category: 'Residencial',
     description: 'Residência de alto padrão'
   },
