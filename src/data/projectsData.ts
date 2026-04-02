@@ -97,9 +97,9 @@ export const projectsData: ProjectDetail[] = [
     category: 'Residencial',
     description: 'Espaços exclusivos pensados para você. Ambientes integrados com lazer completo.',
     longDescription: 'O Esplanada Jaú é um empreendimento residencial que oferece espaços exclusivos pensados para você e sua família. Com ambientes amplos e integrados, o projeto conta com área de lazer completa, incluindo coworking, academia, piscina, churrasqueira, quadra de esportes e elevador. Um empreendimento moderno que proporciona conforto, segurança e qualidade de vida.',
-    mainImage: '/RB2_Esplanada_Fachada_R02.jpg',
+    mainImage: '/RB2_Esplanada_Fachada_R02.jpg?v=1',
     gallery: [
-      '/RB2_Esplanada_Fachada_R02.jpg',
+      '/RB2_Esplanada_Fachada_R02.jpg?v=1',
       'https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria/decorado1.webp',
       'https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria/decorado2.webp',
       'https://www.esplanadajau.com.br/wp-content/themes/c4themeEsplanada/img/galeria/decorado3.webp',

@@ -25,7 +25,7 @@ const featuredProjects = [
     location: 'Jaú, SP',
     status: 'Em Obras',
     description: 'Espaços exclusivos pensados para você. Ambientes integrados com lazer completo.',
-    image: '/RB2_Esplanada_Fachada_R02.jpg',
+    image: '/RB2_Esplanada_Fachada_R02.jpg?v=1',
     website: 'https://www.esplanadajau.com.br',
     logo: 'https://www.esplanadajau.com.br/wp-content/themes/c4theme/img/banner/logo.webp',
     highlights: ['Coworking', 'Academia', 'Piscina', 'Churrasqueira', 'Quadra de Esportes', 'Elevador']

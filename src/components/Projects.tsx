@@ -22,7 +22,7 @@ const projects = [
     name: 'Esplanada Jaú',
     status: 'Em Obras',
     location: 'Jaú, SP',
-    image: '/RB2_Esplanada_Fachada_R02.jpg',
+    image: '/RB2_Esplanada_Fachada_R02.jpg?v=1',
     category: 'Residencial',
     description: 'Ambientes amplos e integrados com lazer completo'
   },
