@@ -55,50 +55,51 @@ export default function ProjectDetailPage() {
       />
       <div className="min-h-screen bg-white">
         <div className="relative h-[70vh] min-h-[500px] bg-slate-900">
-        <img
-          src={project.mainImage}
-          alt={`${project.name} - ${project.description} - Empreendimento em ${project.location}`}
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/50 to-transparent"></div>
+          <img
+            src={project.mainImage}
+            alt={`${project.name} - ${project.description} - Empreendimento em ${project.location}`}
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/50 to-transparent"></div>
 
-        <Link
-          to="/"
-          className="absolute top-4 left-4 md:top-8 md:left-8 bg-white/10 backdrop-blur-sm hover:bg-white/20 active:bg-white/30 text-white px-4 py-2 md:px-6 md:py-3 rounded-lg font-semibold transition-all duration-300 flex items-center space-x-2 border border-white/20 touch-manipulation"
-        >
-          <ArrowLeft className="h-4 w-4 md:h-5 md:w-5" />
-          <span className="text-sm md:text-base">Voltar</span>
-        </Link>
+          <Link
+            to="/"
+            className="absolute top-4 left-4 md:top-8 md:left-8 bg-white/10 backdrop-blur-sm hover:bg-white/20 active:bg-white/30 text-white px-4 py-2 md:px-6 md:py-3 rounded-lg font-semibold transition-all duration-300 flex items-center space-x-2 border border-white/20 touch-manipulation"
+          >
+            <ArrowLeft className="h-4 w-4 md:h-5 md:w-5" />
+            <span className="text-sm md:text-base">Voltar</span>
+          </Link>
 
-        <div className="absolute bottom-0 left-0 right-0 p-4 md:p-8 lg:p-12">
-          <div className="max-w-7xl mx-auto">
-            <div className="inline-block bg-emerald-500 text-white px-3 py-1.5 md:px-4 md:py-2 rounded-full text-xs md:text-sm font-semibold mb-3 md:mb-4">
-              {project.status}
+          <div className="absolute bottom-0 left-0 right-0 p-4 md:p-8 lg:p-12">
+            <div className="max-w-7xl mx-auto">
+              <div className="inline-block bg-emerald-500 text-white px-3 py-1.5 md:px-4 md:py-2 rounded-full text-xs md:text-sm font-semibold mb-3 md:mb-4">
+                {project.status}
+              </div>
+              {project.id === 2 ? (
+                <VistasLogo className="mb-3 md:mb-4 h-16 md:h-auto" variant="light" />
+              ) : project.id === 1 ? (
+                <EsplanadaLogo className="h-16 md:h-24 lg:h-32 w-auto mb-3 md:mb-4 object-contain" variant="light" />
+              ) : project.id === 3 ? (
+                <CicloLogo className="h-14 md:h-20 lg:h-24 w-auto mb-3 md:mb-4 object-contain" variant="light" />
+              ) : project.logo ? (
+                <img
+                  src={project.logo}
+                  alt={`${project.name} Logo`}
+                  className="h-16 md:h-24 lg:h-32 w-auto mb-3 md:mb-4 object-contain"
+                />
+              ) : (
+                <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-3 md:mb-4">
+                  {project.name}
+                </h1>
+              )}
+              <div className="flex items-center space-x-2 text-slate-200 mb-2 md:mb-4">
+                <MapPin className="h-4 w-4 md:h-6 md:w-6" />
+                <span className="text-base md:text-xl">{project.location}</span>
+              </div>
+              <p className="text-sm md:text-xl text-slate-200 max-w-3xl">
+                {project.description}
+              </p>
             </div>
-            {project.id === 2 ? (
-              <VistasLogo className="mb-3 md:mb-4 h-16 md:h-auto" variant="light" />
-            ) : project.id === 1 ? (
-              <EsplanadaLogo className="h-16 md:h-24 lg:h-32 w-auto mb-3 md:mb-4 object-contain" variant="light" />
-            ) : project.id === 3 ? (
-              <CicloLogo className="h-14 md:h-20 lg:h-24 w-auto mb-3 md:mb-4 object-contain" variant="light" />
-            ) : project.logo ? (
-              <img
-                src={project.logo}
-                alt={`${project.name} Logo`}
-                className="h-16 md:h-24 lg:h-32 w-auto mb-3 md:mb-4 object-contain"
-              />
-            ) : (
-              <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-3 md:mb-4">
-                {project.name}
-              </h1>
-            )}
-            <div className="flex items-center space-x-2 text-slate-200 mb-2 md:mb-4">
-              <MapPin className="h-4 w-4 md:h-6 md:w-6" />
-              <span className="text-base md:text-xl">{project.location}</span>
-            </div>
-            <p className="text-sm md:text-xl text-slate-200 max-w-3xl">
-              {project.description}
-            </p>
           </div>
         </div>
       </div>
@@ -260,7 +261,6 @@ export default function ProjectDetailPage() {
             </div>
           </div>
         </div>
-      </div>
       </div>
     </>
   );
