@@ -607,13 +607,12 @@ export const projectsData: ProjectDetail[] = [
     category: 'Residencial',
     description: 'Minha Casa Minha Vida - 44 m², 2 dormitórios',
     longDescription: 'Localizado na região de maior desenvolvimento urbano de Campinas, o edifício Bela Aliança foi construído e entregue dentro do Programa Minha Casa Minha Vida. Os apartamentos têm 44 m² de construção, 2 dormitórios e a área social conta com salão de festas e playground.',
-    mainImage: '/projects/card_cap_bellaalianca.jpg',
+    mainImage: '/projects/2-_Ed._Bela_Alianca/4.jpg',
     gallery: [
-      '/projects/card_cap_bellaalianca.jpg',
-      '/projects/bela-alianca_obras_1.jpg',
-      '/projects/bela-alianca_obras_2.jpg',
-      '/projects/bela-alianca_obras_3.jpg',
-      '/projects/bela-alianca_obras_4.jpg'
+      '/projects/2-_Ed._Bela_Alianca/1.jpg',
+      '/projects/2-_Ed._Bela_Alianca/2.jpg',
+      '/projects/2-_Ed._Bela_Alianca/3.jpg',
+      '/projects/2-_Ed._Bela_Alianca/4.jpg'
     ],
     features: [
       'Minha Casa Minha Vida',
@@ -642,7 +641,7 @@ export const projectsData: ProjectDetail[] = [
       { label: 'Dormitórios', value: '2' },
       { label: 'Programa', value: 'Minha Casa Minha Vida' }
     ],
-    logo: '/projects/bela-alianca_Logo.png'
+    logo: '/projects/2-_Ed._Bela_Alianca/Logo.png'
   },
   {
     id: 11,
