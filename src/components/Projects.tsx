@@ -49,7 +49,7 @@ const projects = [
     name: 'Residência Alphaville',
     status: 'Entregue',
     location: 'Campinas, SP',
-    image: '/projects/IMG_2659.JPG',
+    image: '/projects/3- Alphaville/IMG_2986.JPG',
     category: 'Residencial',
     description: 'Residência de alto padrão'
   },
