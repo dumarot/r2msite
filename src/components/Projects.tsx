@@ -39,8 +39,8 @@ const projects = [
     id: 4,
     name: 'Residencial Viverdi',
     status: 'Entregue',
-    location: 'Campinas, SP',
-    image: 'https://r2m.com.br/wp-content/themes/r2m/img/viverdi.jpg',
+    location: 'Mogi Mirim, SP',
+    image: '/projects/viverdi.jpg',
     category: 'Residencial',
     description: 'Condomínio residencial entregue com sucesso'
   },
@@ -58,7 +58,7 @@ const projects = [
     name: 'Loteamento Santa Joana',
     status: 'Entregue',
     location: 'Campinas, SP',
-    image: 'https://r2m.com.br/wp-content/themes/r2m/img/card_cap/IMG_2549.JPG',
+    image: '/projects/card_cap_santajoana.JPG',
     category: 'Loteamento',
     description: 'Loteamento urbano planejado'
   },
@@ -67,7 +67,7 @@ const projects = [
     name: 'Loteamento São Fernando',
     status: 'Entregue',
     location: 'Campinas, SP',
-    image: 'https://r2m.com.br/wp-content/themes/r2m/img/card_cap/saofernando.jpg',
+    image: '/projects/card_cap_saofernando.jpg',
     category: 'Loteamento',
     description: 'Infraestrutura completa e planejada'
   },
@@ -76,7 +76,7 @@ const projects = [
     name: 'C.E.I. Profª Gessy G. de Camargo',
     status: 'Entregue',
     location: 'Campinas, SP',
-    image: 'https://r2m.com.br/wp-content/themes/r2m/img/gessy/2.jpg',
+    image: '/projects/gessy_2.jpg',
     category: 'Público',
     description: 'Centro de educação infantil'
   },
@@ -85,7 +85,7 @@ const projects = [
     name: 'Parque Ecológico',
     status: 'Entregue',
     location: 'Campinas, SP',
-    image: 'https://r2m.com.br/wp-content/themes/r2m/img/card_cap/parqueecologico.JPG',
+    image: '/projects/card_cap_parqueecologico.JPG',
     category: 'Público',
     description: 'Área de preservação e lazer'
   },
@@ -94,7 +94,7 @@ const projects = [
     name: 'Edifício Bela Aliança',
     status: 'Entregue',
     location: 'Campinas, SP',
-    image: 'https://r2m.com.br/wp-content/themes/r2m/img/card_cap/bellaalianca.jpg',
+    image: '/projects/card_cap_bellaalianca.jpg',
     category: 'Residencial',
     description: 'Edifício residencial moderno'
   }
