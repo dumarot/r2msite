@@ -40,7 +40,7 @@ const projects = [
     name: 'Residencial Viverdi',
     status: 'Entregue',
     location: 'Mogi Mirim, SP',
-    image: '/projects/viverdi.jpg',
+    image: '/projects/1-_Viverdi/card_viverdi.jpg',
     category: 'Residencial',
     description: 'Condomínio residencial entregue com sucesso'
   },
