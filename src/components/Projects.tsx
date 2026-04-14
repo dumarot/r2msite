@@ -94,7 +94,7 @@ const projects = [
     name: 'Edifício Bela Aliança',
     status: 'Entregue',
     location: 'Campinas, SP',
-    image: '/projects/card_cap_bellaalianca.jpg',
+    image: '/projects/2-_Ed._Bela_Alianca/4.jpg',
     category: 'Residencial',
     description: 'Edifício residencial moderno'
   }
