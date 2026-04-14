@@ -67,7 +67,7 @@ const projects = [
     name: 'Loteamento São Fernando',
     status: 'Entregue',
     location: 'Campinas, SP',
-    image: '/projects/card_cap_saofernando.jpg',
+    image: '/projects/5- São Fernando/_DSC8555.jpg',
     category: 'Loteamento',
     description: 'Infraestrutura completa e planejada'
   },
