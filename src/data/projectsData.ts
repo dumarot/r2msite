@@ -303,7 +303,7 @@ export const projectsData: ProjectDetail[] = [
       { label: 'Dormitórios', value: '2 com varanda' },
       { label: 'Vagas', value: '1' }
     ],
-    logo: '/projects/logoviverdi.png'
+    logo: '/projects/1-_Viverdi/logoviverdi.png'
   },
   {
     id: 5,

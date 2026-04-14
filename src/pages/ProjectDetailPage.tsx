@@ -85,7 +85,7 @@ export default function ProjectDetailPage() {
                 <img
                   src={project.logo}
                   alt={`${project.name} Logo`}
-                  className="h-16 md:h-24 lg:h-32 w-auto mb-3 md:mb-4 object-contain"
+                  className="h-24 md:h-36 lg:h-48 w-auto mb-3 md:mb-4 object-contain"
                 />
               ) : (
                 <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-3 md:mb-4">
