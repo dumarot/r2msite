@@ -58,7 +58,7 @@ const projects = [
     name: 'Loteamento Santa Joana',
     status: 'Entregue',
     location: 'Campinas, SP',
-    image: '/projects/card_cap_santajoana.JPG',
+    image: '/projects/4- Santa Joana/IMG_2549.JPG',
     category: 'Loteamento',
     description: 'Loteamento urbano planejado'
   },
