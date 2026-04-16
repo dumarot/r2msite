@@ -551,9 +551,9 @@ export const projectsData: ProjectDetail[] = [
     category: 'Público',
     description: 'Revitalização da Portaria 2',
     longDescription: 'Revitalização e realocação da Portaria 2 do Parque Ecológico de Campinas, mantendo todas as características arquitetônicas em tijolo aparente e reconstrução do telhado em madeiramento novo de alta qualidade e durabilidade.',
-    mainImage: '/projects/9- Parque Ecológico/IMG_1697.JPG',
+    mainImage: '/projects/9- Parque Ecológico/IMG_2474.JPG',
     gallery: [
-      '/projects/9- Parque Ecológico/IMG_1697.JPG',
+      '/projects/9- Parque Ecológico/IMG_2474.JPG',
       '/projects/9- Parque Ecológico/IMG_1977.JPG',
       '/projects/9- Parque Ecológico/IMG_2145.JPG',
       '/projects/9- Parque Ecológico/IMG_2146.JPG',
