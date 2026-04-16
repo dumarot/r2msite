@@ -85,7 +85,7 @@ const projects = [
     name: 'Parque Ecológico',
     status: 'Entregue',
     location: 'Campinas, SP',
-    image: '/projects/card_cap_parqueecologico.JPG',
+    image: '/projects/9- Parque Ecológico/IMG_2474.JPG',
     category: 'Público',
     description: 'Área de preservação e lazer'
   },
