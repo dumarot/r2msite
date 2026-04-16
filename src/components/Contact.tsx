@@ -80,8 +80,7 @@ export default function Contact() {
               <div>
                 <h4 className="font-semibold mb-2">Horário de Atendimento</h4>
                 <p className="text-slate-300">
-                  Segunda a Sexta: 8h às 18h<br />
-                  Sábado: 9h às 13h
+                  Segunda a Sexta: 8h às 18h
                 </p>
               </div>
 
