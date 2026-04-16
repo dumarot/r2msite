@@ -2,21 +2,23 @@ import { ExternalLink, Users, Handshake } from 'lucide-react';
 import { useEffect, useRef } from 'react';
 
 const clientLogos = [
-  'https://r2m.com.br/wp-content/themes/r2m/img/clientes/1.jpg',
-  'https://r2m.com.br/wp-content/themes/r2m/img/clientes/2.jpg',
-  'https://r2m.com.br/wp-content/themes/r2m/img/clientes/3.jpg',
-  'https://r2m.com.br/wp-content/themes/r2m/img/clientes/4.jpg',
-  'https://r2m.com.br/wp-content/themes/r2m/img/clientes/6.JPG',
-  'https://r2m.com.br/wp-content/themes/r2m/img/clientes/7.JPG',
-  'https://r2m.com.br/wp-content/themes/r2m/img/clientes/8.JPG',
-  'https://r2m.com.br/wp-content/themes/r2m/img/clientes/9.JPG',
-  'https://r2m.com.br/wp-content/themes/r2m/img/clientes/10.jpg',
-  'https://r2m.com.br/wp-content/themes/r2m/img/clientes/11.JPG',
-  'https://r2m.com.br/wp-content/themes/r2m/img/clientes/12.JPG',
-  'https://r2m.com.br/wp-content/themes/r2m/img/clientes/13.png',
-  'https://r2m.com.br/wp-content/themes/r2m/img/clientes/15.jpg',
-  'https://r2m.com.br/wp-content/themes/r2m/img/clientes/16.JPG',
-  'https://r2m.com.br/wp-content/themes/r2m/img/clientes/17.JPG'
+  '/projects/clientes/1.jpg',
+  '/projects/clientes/2.jpg',
+  '/projects/clientes/3.jpg',
+  '/projects/clientes/4.jpg',
+  '/projects/clientes/5.jpg',
+  '/projects/clientes/6.JPG',
+  '/projects/clientes/7.JPG',
+  '/projects/clientes/8.JPG',
+  '/projects/clientes/9.JPG',
+  '/projects/clientes/10.jpg',
+  '/projects/clientes/11.JPG',
+  '/projects/clientes/12.JPG',
+  '/projects/clientes/13.png',
+  '/projects/clientes/14.JPG',
+  '/projects/clientes/15.jpg',
+  '/projects/clientes/16.JPG',
+  '/projects/clientes/17.JPG',
 ];
 
 const partners = [
