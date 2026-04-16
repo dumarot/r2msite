@@ -1,7 +1,8 @@
-import { Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, Phone, MapPin, MessageCircle } from 'lucide-react';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
+  const whatsappUrl = 'https://wa.me/5519997180567';
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
@@ -49,6 +50,17 @@ export default function Footer() {
                 <Phone className="h-5 w-5 flex-shrink-0 mt-0.5" />
                 <a href="tel:+551932378344" className="hover:text-emerald-400 transition-colors">
                   +55 (19) 3237-8344
+                </a>
+              </li>
+              <li className="flex items-start space-x-2 text-slate-400">
+                <MessageCircle className="h-5 w-5 flex-shrink-0 mt-0.5 text-[#25D366]" />
+                <a
+                  href={whatsappUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-[#25D366] transition-colors"
+                >
+                  +55 (19) 9.9718-0567
                 </a>
               </li>
             </ul>
