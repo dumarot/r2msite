@@ -76,7 +76,7 @@ const projects = [
     name: 'C.E.I. Profª Gessy G. de Camargo',
     status: 'Entregue',
     location: 'Campinas, SP',
-    image: '/projects/gessy_2.jpg',
+    image: '/projects/8- Gessy/2 e Card.jpg',
     category: 'Público',
     description: 'Centro de educação infantil'
   },
